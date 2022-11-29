@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+option go_package = "github.com/LocatedInSpace/Distributed-Auction-System/proto";
+
+package proto;
+
+// compile command:
+//protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative ./proto/das.proto
+
+// The template service definition.
+// Distributed-Auction-System
+service DAS
+{
+    rpc Bid (Amount) returns (Ack);
+    rpc Result(Empty) returns (Outcome);
+    // a client can tell the server it has something to sell
+    // this is how the active replicas get synced for auctions
+    rpc StartAuction(Item) returns (Ack);
+    rpc Ping(Empty) returns (Empty);
+}
+
+enum Acks {
+    FAIL = 0;
+    SUCCESS = 1;
+    EXCEPTION = 2;
+}
+
+message Amount {
+    uint32 id = 1;
+    uint64 bid = 2;
+}
+
+message Ack {
+    Acks response = 1;
+    // fail / exception
+    string message = 2;
+}
+
+message Empty {
+
+}
+
+message Outcome {
+    uint32 left = 1;  // how many milliseconds are left before auction ends
+    uint64 amount = 2; // highest bid
+    uint32 bidder = 3; // id of highest bid, 0 is no bidder
+    string item = 4; // name of item we are bidding on
+}
+
+message Item {
+    string name = 1;
+    uint64 start = 2; // starting bid, can be thought of as the minimum the client would accept
+    uint32 alive = 3; // how many milliseconds the auction should last
+}
