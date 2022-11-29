@@ -18,15 +18,16 @@ import (
 )
 
 const BASEPORT = 7000 // port offset to look for servers from
-const REPLICAS = 5    // amount of replicas we've started up
+const REPLICAS = 4    // amount of replicas we've started up
 
-const VERBOSE = false // print each response from each replica
+const VERBOSE = true          // print each response from each replica
+const PRECISE_LOGGING = false // ups precision on timestamps
 
-const AUTOCLIENT = true // will randomly call startauction, sendbids, etc.
+const AUTOCLIENT = false // will randomly call startauction, sendbids, etc.
 // this parameter was used to generate the logs that verify replicas are in sync
 
-const MIN_DELAY = 5  // mindelay before next AUTOCLIENT roll
-const MAX_DELAY = 30 // maxdelay before next AUTOCLIENT roll
+const MIN_DELAY = 20  // mindelay before next AUTOCLIENT roll
+const MAX_DELAY = 100 // maxdelay before next AUTOCLIENT roll
 type ReplicaServers struct {
 	clients []DAS.DASClient
 	ctx     context.Context
@@ -91,13 +92,13 @@ func main() {
 			server.PurgeDeadReplicas()
 			switch action {
 			case 0:
-				fmt.Println(server.SendBid(server.GetResults().Amount + 1))
+				log.Println(server.SendBid(server.GetResults().Amount + 1))
 			case 1:
 				server.SendBid(rand.Uint64())
 			case 2:
-				fmt.Println(FormatOutcome(server.GetResults()))
+				log.Println(FormatOutcome(server.GetResults()))
 			case 3:
-				fmt.Println(server.StartAuction(rand.Uint64(), uint32(rand.Intn(65535)), item))
+				log.Println(server.StartAuction(rand.Uint64(), uint32(rand.Intn(65535)), item))
 			}
 			// 1e6 = millisecond
 			time.Sleep(time.Duration((MIN_DELAY + rand.Intn(MAX_DELAY-MIN_DELAY)) * 1e6))
@@ -207,7 +208,7 @@ func (s *ReplicaServers) SendBid(amount uint64) *DAS.Ack {
 	var responses []*DAS.Ack
 	var remove []int
 	if VERBOSE {
-		fmt.Println("--- All responses ---")
+		log.Println("--- SendBid queried ---")
 	}
 	for i, r := range s.clients {
 		ack, err := r.Bid(s.ctx, query)
@@ -224,7 +225,7 @@ func (s *ReplicaServers) SendBid(amount uint64) *DAS.Ack {
 		responses = append(responses, ack)
 	}
 	if VERBOSE {
-		fmt.Println("---------------------")
+		log.Println("---------------------")
 	}
 
 	for i, val := range remove {
@@ -242,15 +243,15 @@ func FormatOutcome(outcome *DAS.Outcome) string {
 	} else {
 		if outcome.Left > 0 {
 			if outcome.Bidder != 0 {
-				r = fmt.Sprintf("| Auction for '%s' has %vms left\n| Highest bid (by id %v) is %v", outcome.Item, outcome.Left, outcome.Bidder, outcome.Amount)
+				r = fmt.Sprintf("| Auction for '%s' has %vms left, highest bid (by id %v) is %v", outcome.Item, outcome.Left, outcome.Bidder, outcome.Amount)
 			} else {
-				r = fmt.Sprintf("| Auction for '%s' has %vms left\n| Starting bid is %v", outcome.Item, outcome.Left, outcome.Amount)
+				r = fmt.Sprintf("| Auction for '%s' has %vms left, starting bid is %v", outcome.Item, outcome.Left, outcome.Amount)
 			}
 		} else {
 			if outcome.Bidder != 0 {
 				r = fmt.Sprintf("| Auction for '%s' was won (by id %v) for %v", outcome.Item, outcome.Bidder, outcome.Amount)
 			} else {
-				r = fmt.Sprintf("| Auction for '%s' did not sell\n| Starting bid was %v", outcome.Item, outcome.Amount)
+				r = fmt.Sprintf("| Auction for '%s' did not sell, starting bid was %v", outcome.Item, outcome.Amount)
 			}
 		}
 	}
@@ -263,7 +264,7 @@ func (s *ReplicaServers) GetResults() *DAS.Outcome {
 	var responses []*DAS.Outcome
 	var remove []int
 	if VERBOSE {
-		fmt.Println("--- All responses ---")
+		log.Println("--- GetResults queried ---")
 	}
 	for i, r := range s.clients {
 		outcome, err := r.Result(s.ctx, query)
@@ -280,7 +281,7 @@ func (s *ReplicaServers) GetResults() *DAS.Outcome {
 		responses = append(responses, outcome)
 	}
 	if VERBOSE {
-		fmt.Println("---------------------")
+		log.Println("---------------------")
 	}
 
 	for i, val := range remove {
@@ -301,7 +302,7 @@ func (s *ReplicaServers) StartAuction(start uint64, duration uint32, name string
 	var responses []*DAS.Ack
 	var remove []int
 	if VERBOSE {
-		log.Println("--- All responses ---")
+		log.Println("--- StartAuction queried ---")
 	}
 	for i, r := range s.clients {
 		ack, err := r.StartAuction(s.ctx, query)
@@ -318,7 +319,7 @@ func (s *ReplicaServers) StartAuction(start uint64, duration uint32, name string
 		responses = append(responses, ack)
 	}
 	if VERBOSE {
-		fmt.Println("---------------------")
+		log.Println("---------------------")
 	}
 
 	for i, val := range remove {
@@ -344,6 +345,11 @@ func setLog(id uint32) *os.File {
 	}
 	// print to both file and console
 	mw := io.MultiWriter(os.Stdout, f)
+
+	if PRECISE_LOGGING {
+		log.SetFlags(log.LstdFlags | log.Lmicroseconds)
+	}
+
 	log.SetOutput(mw)
 	return f
 }

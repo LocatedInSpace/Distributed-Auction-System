@@ -1,0 +1,935 @@
+2022/11/29 20:14:33.791247 Replica started on 127.0.0.1:7001
+2022/11/29 20:16:10.936617 Auction() | Started auction 'item-1', duration: 42390
+2022/11/29 20:16:10.953233 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:11.153189 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:11.168837 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:11.431568 Bid() | Request received from 2, amount: 11899189732007884537
+2022/11/29 20:16:11.431568 Bid() | Rejected bid from 2
+2022/11/29 20:16:11.602019 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:11.788224 Result() | Sent current auction, 'item-1' lasts 42390ms, id 0 is winning
+2022/11/29 20:16:11.881542 Result() | Sent current auction, 'item-1' lasts 42390ms, id 0 is winning
+2022/11/29 20:16:11.898769 Result() | Sent current auction, 'item-1' lasts 42390ms, id 0 is winning
+2022/11/29 20:16:12.100148 Bid() | Request received from 2, amount: 1157267741675129037
+2022/11/29 20:16:12.100687 Bid() | Rejected bid from 2
+2022/11/29 20:16:12.163059 Result() | Sent current auction, 'item-1' lasts 42390ms, id 0 is winning
+2022/11/29 20:16:12.516992 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:12.534227 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:12.565189 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:12.579535 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:12.596043 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:12.688048 Result() | Sent current auction, 'item-1' lasts 42390ms, id 0 is winning
+2022/11/29 20:16:12.751994 Bid() | Request received from 2, amount: 11177755189769756356
+2022/11/29 20:16:12.751994 Bid() | Rejected bid from 2
+2022/11/29 20:16:12.797965 Bid() | Request received from 1, amount: 17188325338148249707
+2022/11/29 20:16:12.797965 Bid() | Accepted bid from 1
+2022/11/29 20:16:12.813632 Bid() | Request received from 3, amount: 17188325338148249707
+2022/11/29 20:16:12.813632 Bid() | Rejected bid from 3
+2022/11/29 20:16:12.873980 Bid() | Request received from 2, amount: 14125192121232343140
+2022/11/29 20:16:12.874502 Bid() | Rejected bid from 2
+2022/11/29 20:16:13.047390 Bid() | Request received from 2, amount: 6232333115275410496
+2022/11/29 20:16:13.047390 Bid() | Rejected bid from 2
+2022/11/29 20:16:13.063802 Bid() | Request received from 1, amount: 12947672601198550315
+2022/11/29 20:16:13.063802 Bid() | Rejected bid from 1
+2022/11/29 20:16:13.080031 Bid() | Request received from 3, amount: 12947672601198550315
+2022/11/29 20:16:13.080031 Bid() | Rejected bid from 3
+2022/11/29 20:16:13.095320 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:13.217223 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:13.277923 Bid() | Request received from 1, amount: 13608594284838590888
+2022/11/29 20:16:13.278437 Bid() | Rejected bid from 1
+2022/11/29 20:16:13.294496 Bid() | Request received from 3, amount: 13608594284838590888
+2022/11/29 20:16:13.294496 Bid() | Rejected bid from 3
+2022/11/29 20:16:13.325651 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:13.356718 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:13.371345 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:13.447749 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:13.558329 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:13.574418 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:13.680651 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:13.712694 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:13.728802 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:13.774995 Bid() | Request received from 1, amount: 12637192071906821932
+2022/11/29 20:16:13.775506 Bid() | Rejected bid from 1
+2022/11/29 20:16:13.791680 Bid() | Request received from 3, amount: 12637192071906821932
+2022/11/29 20:16:13.791680 Bid() | Rejected bid from 3
+2022/11/29 20:16:14.006935 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.115083 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:14.176924 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:14.191339 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.208344 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.285044 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.301272 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.333482 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.348950 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.394078 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.409632 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.424832 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.483977 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.516022 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.531893 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.577736 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.610156 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:14.625001 Bid() | Request received from 2, amount: 7746409261133191336
+2022/11/29 20:16:14.625001 Bid() | Rejected bid from 2
+2022/11/29 20:16:14.794401 Bid() | Request received from 2, amount: 5968925272838821684
+2022/11/29 20:16:14.794937 Bid() | Rejected bid from 2
+2022/11/29 20:16:15.042568 Bid() | Request received from 1, amount: 10768279134357896837
+2022/11/29 20:16:15.042568 Bid() | Rejected bid from 1
+2022/11/29 20:16:15.073934 Bid() | Request received from 3, amount: 10768279134357896837
+2022/11/29 20:16:15.073934 Bid() | Rejected bid from 3
+2022/11/29 20:16:15.182136 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:15.214211 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:15.505781 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:15.537227 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:15.583082 Bid() | Request received from 2, amount: 8690167815267335332
+2022/11/29 20:16:15.583082 Bid() | Rejected bid from 2
+2022/11/29 20:16:15.784590 Bid() | Request received from 2, amount: 15058017713672920424
+2022/11/29 20:16:15.785098 Bid() | Rejected bid from 2
+2022/11/29 20:16:16.000520 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:16.032094 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:16.091696 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:16.309388 Bid() | Request received from 2, amount: 11549059938769946301
+2022/11/29 20:16:16.309496 Bid() | Rejected bid from 2
+2022/11/29 20:16:16.325362 Bid() | Request received from 1, amount: 9341222241144185793
+2022/11/29 20:16:16.325362 Bid() | Rejected bid from 1
+2022/11/29 20:16:16.357260 Bid() | Request received from 3, amount: 9341222241144185793
+2022/11/29 20:16:16.357260 Bid() | Rejected bid from 3
+2022/11/29 20:16:16.372810 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:16.387386 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:16.403267 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:16.463696 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:16.495130 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:16.602839 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:16.849889 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:16.882073 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:16.912821 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:17.020097 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:17.052197 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:17.082871 Bid() | Request received from 1, amount: 17488435266537137574
+2022/11/29 20:16:17.082871 Bid() | Accepted bid from 1
+2022/11/29 20:16:17.115412 Bid() | Request received from 3, amount: 17488435266537137574
+2022/11/29 20:16:17.115412 Bid() | Rejected bid from 3
+2022/11/29 20:16:17.145870 Bid() | Request received from 1, amount: 4477013497436417044
+2022/11/29 20:16:17.145870 Bid() | Rejected bid from 1
+2022/11/29 20:16:17.176910 Bid() | Request received from 3, amount: 4477013497436417044
+2022/11/29 20:16:17.176910 Bid() | Rejected bid from 3
+2022/11/29 20:16:17.298602 Bid() | Request received from 2, amount: 11476942026681150832
+2022/11/29 20:16:17.299104 Bid() | Rejected bid from 2
+2022/11/29 20:16:17.606915 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:17.856554 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:17.888733 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:17.904529 Bid() | Request received from 2, amount: 16754508632151795193
+2022/11/29 20:16:17.904600 Bid() | Rejected bid from 2
+2022/11/29 20:16:18.290762 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:18.400378 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:18.447538 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:18.478230 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:18.648814 Bid() | Request received from 2, amount: 5795688515911415866
+2022/11/29 20:16:18.648814 Bid() | Rejected bid from 2
+2022/11/29 20:16:18.817915 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:18.894211 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:19.187133 Bid() | Request received from 1, amount: 8777052726457567504
+2022/11/29 20:16:19.187133 Bid() | Rejected bid from 1
+2022/11/29 20:16:19.217718 Bid() | Request received from 3, amount: 8777052726457567504
+2022/11/29 20:16:19.218247 Bid() | Rejected bid from 3
+2022/11/29 20:16:19.232480 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:19.279202 Bid() | Request received from 2, amount: 1764682346590242018
+2022/11/29 20:16:19.279202 Bid() | Rejected bid from 2
+2022/11/29 20:16:19.389005 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:19.543629 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:19.730529 Bid() | Request received from 2, amount: 13963800812732927478
+2022/11/29 20:16:19.730529 Bid() | Rejected bid from 2
+2022/11/29 20:16:19.853936 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:20.007604 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:20.054710 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:20.117285 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:20.133098 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:20.194229 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:20.210485 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:20.271047 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:20.287333 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:20.332845 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:20.349084 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:20.456306 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:20.472730 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:20.503167 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:20.563254 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:20.580171 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:20.734087 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:20.750746 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:21.043429 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:21.059236 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:21.075255 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:21.166391 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:21.198467 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:21.214187 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:21.305940 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:21.337730 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:21.382207 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:21.427761 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:21.602390 Bid() | Request received from 2, amount: 13613266876055771037
+2022/11/29 20:16:21.602390 Bid() | Rejected bid from 2
+2022/11/29 20:16:21.617808 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:21.634574 Bid() | Request received from 2, amount: 3127341633085261796
+2022/11/29 20:16:21.635108 Bid() | Rejected bid from 2
+2022/11/29 20:16:21.649960 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:21.727951 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:21.760127 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:21.774667 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:22.023025 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:22.099276 Bid() | Request received from 2, amount: 11048503006365370127
+2022/11/29 20:16:22.099276 Bid() | Rejected bid from 2
+2022/11/29 20:16:22.130765 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:22.161137 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:22.176688 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:22.207405 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:22.284929 Bid() | Request received from 1, amount: 260771642738588626
+2022/11/29 20:16:22.284929 Bid() | Rejected bid from 1
+2022/11/29 20:16:22.301697 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:22.317973 Bid() | Request received from 3, amount: 260771642738588626
+2022/11/29 20:16:22.317973 Bid() | Rejected bid from 3
+2022/11/29 20:16:22.410821 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:22.503547 Bid() | Request received from 2, amount: 17380759668469915449
+2022/11/29 20:16:22.503547 Bid() | Rejected bid from 2
+2022/11/29 20:16:22.611051 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:22.673400 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:22.705264 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:22.844338 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:23.168149 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:23.201297 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:23.323723 Bid() | Request received from 2, amount: 15642796096111218168
+2022/11/29 20:16:23.323723 Bid() | Rejected bid from 2
+2022/11/29 20:16:23.355941 Bid() | Request received from 1, amount: 7731656255237163359
+2022/11/29 20:16:23.355941 Bid() | Rejected bid from 1
+2022/11/29 20:16:23.387418 Bid() | Request received from 3, amount: 7731656255237163359
+2022/11/29 20:16:23.387418 Bid() | Rejected bid from 3
+2022/11/29 20:16:23.495375 Bid() | Request received from 2, amount: 12008914303983835785
+2022/11/29 20:16:23.495375 Bid() | Rejected bid from 2
+2022/11/29 20:16:23.573297 Bid() | Request received from 2, amount: 435129571631521466
+2022/11/29 20:16:23.573380 Bid() | Rejected bid from 2
+2022/11/29 20:16:23.636005 Bid() | Request received from 2, amount: 6598051398849911452
+2022/11/29 20:16:23.636063 Bid() | Rejected bid from 2
+2022/11/29 20:16:23.683215 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:23.699130 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:23.730190 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:23.775550 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:23.807644 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:23.823681 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:24.057501 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:24.104819 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:24.340293 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:24.387485 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:24.525637 Bid() | Request received from 1, amount: 5970972047241352689
+2022/11/29 20:16:24.525637 Bid() | Rejected bid from 1
+2022/11/29 20:16:24.571958 Bid() | Request received from 3, amount: 5970972047241352689
+2022/11/29 20:16:24.572024 Bid() | Rejected bid from 3
+2022/11/29 20:16:24.695662 Bid() | Request received from 1, amount: 589872363509987295
+2022/11/29 20:16:24.695662 Bid() | Rejected bid from 1
+2022/11/29 20:16:24.742498 Bid() | Request received from 3, amount: 589872363509987295
+2022/11/29 20:16:24.742607 Bid() | Rejected bid from 3
+2022/11/29 20:16:25.282456 Bid() | Request received from 1, amount: 14475865428721269152
+2022/11/29 20:16:25.282456 Bid() | Rejected bid from 1
+2022/11/29 20:16:25.314865 Bid() | Request received from 3, amount: 14475865428721269152
+2022/11/29 20:16:25.314957 Bid() | Rejected bid from 3
+2022/11/29 20:16:25.391888 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:25.548428 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:25.579347 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:25.595882 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:25.626064 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:25.687834 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:25.734774 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:25.751247 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:25.767495 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:25.799211 Bid() | Request received from 1, amount: 8321738874976544515
+2022/11/29 20:16:25.799211 Bid() | Rejected bid from 1
+2022/11/29 20:16:25.828351 Bid() | Request received from 3, amount: 8321738874976544515
+2022/11/29 20:16:25.828858 Bid() | Rejected bid from 3
+2022/11/29 20:16:25.982490 Bid() | Request received from 1, amount: 17042464212275954939
+2022/11/29 20:16:25.982490 Bid() | Rejected bid from 1
+2022/11/29 20:16:26.014641 Bid() | Request received from 3, amount: 17042464212275954939
+2022/11/29 20:16:26.015155 Bid() | Rejected bid from 3
+2022/11/29 20:16:26.400975 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:26.493766 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:26.526996 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:26.634810 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:26.667998 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:26.776299 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:26.915555 Bid() | Request received from 2, amount: 3062408450346174126
+2022/11/29 20:16:26.915555 Bid() | Rejected bid from 2
+2022/11/29 20:16:26.991624 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:27.023530 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:27.038854 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:27.195588 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:27.242825 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:27.490585 Bid() | Request received from 1, amount: 11925620344952834462
+2022/11/29 20:16:27.490585 Bid() | Rejected bid from 1
+2022/11/29 20:16:27.551448 Bid() | Request received from 3, amount: 11925620344952834462
+2022/11/29 20:16:27.551448 Bid() | Rejected bid from 3
+2022/11/29 20:16:27.568140 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:27.613823 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:27.649774 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:27.722294 Bid() | Request received from 1, amount: 13279111974665653937
+2022/11/29 20:16:27.722294 Bid() | Rejected bid from 1
+2022/11/29 20:16:27.784930 Bid() | Request received from 3, amount: 13279111974665653937
+2022/11/29 20:16:27.784930 Bid() | Rejected bid from 3
+2022/11/29 20:16:27.817326 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:27.848050 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:27.908821 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:28.000698 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:28.016798 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:28.061851 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:28.278501 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:28.463830 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:28.540618 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:28.592195 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:28.621875 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:28.663849 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:28.696551 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:28.758015 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:28.895769 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:29.128576 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:29.220669 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:29.282945 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:29.436395 Bid() | Request received from 1, amount: 14369229628048182899
+2022/11/29 20:16:29.436934 Bid() | Rejected bid from 1
+2022/11/29 20:16:29.499070 Bid() | Request received from 3, amount: 14369229628048182899
+2022/11/29 20:16:29.499165 Bid() | Rejected bid from 3
+2022/11/29 20:16:29.684559 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:29.745910 Bid() | Request received from 2, amount: 15134596388951697061
+2022/11/29 20:16:29.746521 Bid() | Rejected bid from 2
+2022/11/29 20:16:29.761581 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:29.823391 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:29.899009 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:29.915290 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:29.931298 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:29.992944 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:30.008647 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:30.055066 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:30.133030 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:30.179045 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:30.195638 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:30.242550 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:30.381717 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:30.428852 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:30.460021 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:30.535556 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:30.582971 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:30.644682 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:30.878231 Bid() | Request received from 2, amount: 983182081886175550
+2022/11/29 20:16:30.878231 Bid() | Rejected bid from 2
+2022/11/29 20:16:30.894295 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:30.925732 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:30.940862 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:31.112500 Bid() | Request received from 2, amount: 2956382459342945102
+2022/11/29 20:16:31.112500 Bid() | Rejected bid from 2
+2022/11/29 20:16:31.295396 Bid() | Request received from 1, amount: 12882810159618671917
+2022/11/29 20:16:31.295925 Bid() | Rejected bid from 1
+2022/11/29 20:16:31.357972 Bid() | Request received from 3, amount: 12882810159618671917
+2022/11/29 20:16:31.357972 Bid() | Rejected bid from 3
+2022/11/29 20:16:31.389660 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:31.449914 Bid() | Request received from 2, amount: 14553526369932358
+2022/11/29 20:16:31.449914 Bid() | Rejected bid from 2
+2022/11/29 20:16:31.496104 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:31.574949 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:31.592417 Bid() | Request received from 1, amount: 11642003984867109591
+2022/11/29 20:16:31.592417 Bid() | Rejected bid from 1
+2022/11/29 20:16:31.667743 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:31.683102 Bid() | Request received from 3, amount: 11642003984867109591
+2022/11/29 20:16:31.683168 Bid() | Rejected bid from 3
+2022/11/29 20:16:31.744510 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:31.807495 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:32.069778 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:32.131890 Bid() | Request received from 1, amount: 13565387729131623593
+2022/11/29 20:16:32.131890 Bid() | Rejected bid from 1
+2022/11/29 20:16:32.225971 Bid() | Request received from 3, amount: 13565387729131623593
+2022/11/29 20:16:32.225971 Bid() | Rejected bid from 3
+2022/11/29 20:16:32.320070 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:32.366136 Bid() | Request received from 1, amount: 14573828101983378413
+2022/11/29 20:16:32.366136 Bid() | Rejected bid from 1
+2022/11/29 20:16:32.458419 Bid() | Request received from 3, amount: 14573828101983378413
+2022/11/29 20:16:32.458419 Bid() | Rejected bid from 3
+2022/11/29 20:16:32.490513 Bid() | Request received from 2, amount: 7240232332549492437
+2022/11/29 20:16:32.490513 Bid() | Rejected bid from 2
+2022/11/29 20:16:32.628771 Bid() | Request received from 1, amount: 17962379410073910559
+2022/11/29 20:16:32.628771 Bid() | Accepted bid from 1
+2022/11/29 20:16:32.675800 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:32.722539 Bid() | Request received from 3, amount: 17962379410073910559
+2022/11/29 20:16:32.723087 Bid() | Rejected bid from 3
+2022/11/29 20:16:32.801178 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:32.896338 Bid() | Request received from 1, amount: 15831651719086662751
+2022/11/29 20:16:32.896338 Bid() | Rejected bid from 1
+2022/11/29 20:16:33.003756 Bid() | Request received from 3, amount: 15831651719086662751
+2022/11/29 20:16:33.003832 Bid() | Rejected bid from 3
+2022/11/29 20:16:33.388722 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:33.590601 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:33.607418 Bid() | Request received from 2, amount: 12820000476239202060
+2022/11/29 20:16:33.607956 Bid() | Rejected bid from 2
+2022/11/29 20:16:33.698651 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:33.790767 Bid() | Request received from 2, amount: 12128354277334415970
+2022/11/29 20:16:33.790767 Bid() | Rejected bid from 2
+2022/11/29 20:16:33.823194 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:33.929940 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:33.946908 Bid() | Request received from 2, amount: 11837810890995163191
+2022/11/29 20:16:33.947411 Bid() | Rejected bid from 2
+2022/11/29 20:16:34.037883 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:34.210896 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:34.396314 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:34.427935 Bid() | Request received from 1, amount: 12764031492922420606
+2022/11/29 20:16:34.428446 Bid() | Rejected bid from 1
+2022/11/29 20:16:34.534999 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:34.549889 Bid() | Request received from 3, amount: 12764031492922420606
+2022/11/29 20:16:34.550010 Bid() | Rejected bid from 3
+2022/11/29 20:16:34.565826 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:34.626462 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:34.658307 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:34.719017 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:34.751076 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:34.827480 Bid() | Request received from 2, amount: 12178223283854653685
+2022/11/29 20:16:34.827480 Bid() | Rejected bid from 2
+2022/11/29 20:16:34.859059 Bid() | Request received from 1, amount: 13010011246119902224
+2022/11/29 20:16:34.859059 Bid() | Rejected bid from 1
+2022/11/29 20:16:34.874543 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:34.906111 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:34.982528 Bid() | Request received from 3, amount: 13010011246119902224
+2022/11/29 20:16:34.982528 Bid() | Rejected bid from 3
+2022/11/29 20:16:35.151856 Bid() | Request received from 2, amount: 16314058485219424144
+2022/11/29 20:16:35.152367 Bid() | Rejected bid from 2
+2022/11/29 20:16:35.215311 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:35.292289 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:35.368196 Bid() | Request received from 2, amount: 8315212726998736827
+2022/11/29 20:16:35.368705 Bid() | Rejected bid from 2
+2022/11/29 20:16:35.523163 Bid() | Request received from 2, amount: 11249307557710975685
+2022/11/29 20:16:35.523163 Bid() | Rejected bid from 2
+2022/11/29 20:16:35.616299 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:35.633623 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:35.663839 Bid() | Request received from 2, amount: 9874375984101368384
+2022/11/29 20:16:35.663839 Bid() | Rejected bid from 2
+2022/11/29 20:16:35.707675 Bid() | Request received from 1, amount: 16104477541890752579
+2022/11/29 20:16:35.707675 Bid() | Rejected bid from 1
+2022/11/29 20:16:35.769597 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:35.784867 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:35.862490 Bid() | Request received from 3, amount: 16104477541890752579
+2022/11/29 20:16:35.863001 Bid() | Rejected bid from 3
+2022/11/29 20:16:35.941178 Bid() | Request received from 1, amount: 3738590093996244000
+2022/11/29 20:16:35.941178 Bid() | Rejected bid from 1
+2022/11/29 20:16:36.047245 Bid() | Request received from 2, amount: 12008471008180087503
+2022/11/29 20:16:36.047245 Bid() | Rejected bid from 2
+2022/11/29 20:16:36.079960 Bid() | Request received from 1, amount: 8987975525659679247
+2022/11/29 20:16:36.080026 Bid() | Rejected bid from 1
+2022/11/29 20:16:36.095541 Bid() | Request received from 3, amount: 3738590093996244000
+2022/11/29 20:16:36.095575 Bid() | Rejected bid from 3
+2022/11/29 20:16:36.126407 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:36.157757 Bid() | Request received from 2, amount: 4087811861959122269
+2022/11/29 20:16:36.157757 Bid() | Rejected bid from 2
+2022/11/29 20:16:36.218973 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:36.234924 Bid() | Request received from 3, amount: 8987975525659679247
+2022/11/29 20:16:36.234924 Bid() | Rejected bid from 3
+2022/11/29 20:16:36.465634 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:36.742193 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:36.787536 Bid() | Request received from 1, amount: 1500400963709896778
+2022/11/29 20:16:36.788051 Bid() | Rejected bid from 1
+2022/11/29 20:16:36.944573 Bid() | Request received from 3, amount: 1500400963709896778
+2022/11/29 20:16:36.945124 Bid() | Rejected bid from 3
+2022/11/29 20:16:37.161354 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:37.238388 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:37.285335 Bid() | Request received from 1, amount: 12874747146208096758
+2022/11/29 20:16:37.285850 Bid() | Rejected bid from 1
+2022/11/29 20:16:37.317175 Bid() | Request received from 2, amount: 18318618277975613601
+2022/11/29 20:16:37.317689 Bid() | Accepted bid from 2
+2022/11/29 20:16:37.331124 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:37.439583 Bid() | Request received from 2, amount: 13248827254744827348
+2022/11/29 20:16:37.439583 Bid() | Rejected bid from 2
+2022/11/29 20:16:37.455844 Bid() | Request received from 3, amount: 12874747146208096758
+2022/11/29 20:16:37.455844 Bid() | Rejected bid from 3
+2022/11/29 20:16:37.501138 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:37.516725 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:37.671737 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:37.858063 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:37.920584 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:37.937189 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:37.999032 Bid() | Request received from 1, amount: 10848136411706923755
+2022/11/29 20:16:37.999594 Bid() | Rejected bid from 1
+2022/11/29 20:16:38.016274 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:38.090714 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:38.107287 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:38.152535 Bid() | Request received from 3, amount: 10848136411706923755
+2022/11/29 20:16:38.153042 Bid() | Rejected bid from 3
+2022/11/29 20:16:38.169297 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:38.259760 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:38.292571 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:38.431229 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:38.447584 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:38.553385 Bid() | Request received from 2, amount: 10185446598816676899
+2022/11/29 20:16:38.553929 Bid() | Rejected bid from 2
+2022/11/29 20:16:38.585021 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:38.645855 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:38.723073 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:38.876440 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:38.969608 Bid() | Request received from 1, amount: 11490412383488958298
+2022/11/29 20:16:38.969608 Bid() | Rejected bid from 1
+2022/11/29 20:16:39.016421 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:39.047083 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:39.092706 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:39.124232 Bid() | Request received from 3, amount: 11490412383488958298
+2022/11/29 20:16:39.124362 Bid() | Rejected bid from 3
+2022/11/29 20:16:39.138723 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:39.170271 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:39.449306 Bid() | Request received from 1, amount: 13555763515002807875
+2022/11/29 20:16:39.449306 Bid() | Rejected bid from 1
+2022/11/29 20:16:39.465150 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:39.496530 Bid() | Request received from 1, amount: 9465259390192687337
+2022/11/29 20:16:39.496530 Bid() | Rejected bid from 1
+2022/11/29 20:16:39.603395 Bid() | Request received from 3, amount: 13555763515002807875
+2022/11/29 20:16:39.603395 Bid() | Rejected bid from 3
+2022/11/29 20:16:39.649791 Bid() | Request received from 3, amount: 9465259390192687337
+2022/11/29 20:16:39.649791 Bid() | Rejected bid from 3
+2022/11/29 20:16:39.741206 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:39.819920 Bid() | Request received from 2, amount: 1162370050130352667
+2022/11/29 20:16:39.819920 Bid() | Rejected bid from 2
+2022/11/29 20:16:39.881399 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:40.297903 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:40.344829 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:40.423552 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:40.485685 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:40.578928 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:40.611756 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:40.643178 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:40.718972 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:40.735997 Bid() | Request received from 1, amount: 17864569512175628041
+2022/11/29 20:16:40.736527 Bid() | Rejected bid from 1
+2022/11/29 20:16:40.797721 Bid() | Request received from 2, amount: 5921103844032933073
+2022/11/29 20:16:40.797721 Bid() | Rejected bid from 2
+2022/11/29 20:16:40.813810 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:40.859377 Bid() | Request received from 3, amount: 17864569512175628041
+2022/11/29 20:16:40.859377 Bid() | Rejected bid from 3
+2022/11/29 20:16:40.904052 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:40.936799 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:41.136276 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:41.353686 Bid() | Request received from 1, amount: 9285991844949698978
+2022/11/29 20:16:41.353686 Bid() | Rejected bid from 1
+2022/11/29 20:16:41.430486 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:41.462318 Bid() | Request received from 3, amount: 9285991844949698978
+2022/11/29 20:16:41.462318 Bid() | Rejected bid from 3
+2022/11/29 20:16:41.537731 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:41.753791 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:41.832748 Bid() | Request received from 1, amount: 14576118089970904309
+2022/11/29 20:16:41.832748 Bid() | Rejected bid from 1
+2022/11/29 20:16:41.864014 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:41.924633 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:41.955430 Bid() | Request received from 3, amount: 14576118089970904309
+2022/11/29 20:16:41.955430 Bid() | Rejected bid from 3
+2022/11/29 20:16:42.049138 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:42.296905 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:42.546128 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:42.562889 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:42.670228 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:42.948376 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:43.026181 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:43.058244 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:43.134445 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:43.243054 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:43.275543 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:43.291759 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:43.384326 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:43.400255 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:43.461303 Bid() | Request received from 2, amount: 14521470933340807584
+2022/11/29 20:16:43.461815 Bid() | Rejected bid from 2
+2022/11/29 20:16:43.493679 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:43.801060 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:43.955683 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:43.970524 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:44.004212 Bid() | Request received from 1, amount: 14824626276392828453
+2022/11/29 20:16:44.004212 Bid() | Rejected bid from 1
+2022/11/29 20:16:44.067588 Bid() | Request received from 2, amount: 15920275629534472894
+2022/11/29 20:16:44.067588 Bid() | Rejected bid from 2
+2022/11/29 20:16:44.078645 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:44.093743 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:44.125745 Bid() | Request received from 3, amount: 14824626276392828453
+2022/11/29 20:16:44.125745 Bid() | Rejected bid from 3
+2022/11/29 20:16:44.186335 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:44.246770 Bid() | Request received from 1, amount: 6010011356083402853
+2022/11/29 20:16:44.246770 Bid() | Rejected bid from 1
+2022/11/29 20:16:44.339188 Bid() | Request received from 3, amount: 6010011356083402853
+2022/11/29 20:16:44.339188 Bid() | Rejected bid from 3
+2022/11/29 20:16:44.356134 Bid() | Request received from 2, amount: 5283202174037326341
+2022/11/29 20:16:44.356134 Bid() | Rejected bid from 2
+2022/11/29 20:16:44.493307 Bid() | Request received from 2, amount: 15412456812898513119
+2022/11/29 20:16:44.493307 Bid() | Rejected bid from 2
+2022/11/29 20:16:44.585589 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:44.678344 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:44.755909 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:44.832423 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:44.848686 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:44.879910 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:44.925486 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:44.957571 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:45.002880 Bid() | Request received from 1, amount: 14391589811783250225
+2022/11/29 20:16:45.002880 Bid() | Rejected bid from 1
+2022/11/29 20:16:45.096122 Bid() | Request received from 3, amount: 14391589811783250225
+2022/11/29 20:16:45.096122 Bid() | Rejected bid from 3
+2022/11/29 20:16:45.391424 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:45.406993 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:45.438174 Bid() | Request received from 2, amount: 2111419972257326148
+2022/11/29 20:16:45.438685 Bid() | Rejected bid from 2
+2022/11/29 20:16:45.469536 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:45.484766 Bid() | Request received from 2, amount: 13050664390477728451
+2022/11/29 20:16:45.484766 Bid() | Rejected bid from 2
+2022/11/29 20:16:45.532590 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:45.593762 Bid() | Request received from 1, amount: 7481932942476945132
+2022/11/29 20:16:45.593762 Bid() | Rejected bid from 1
+2022/11/29 20:16:45.670982 Bid() | Request received from 3, amount: 7481932942476945132
+2022/11/29 20:16:45.670982 Bid() | Rejected bid from 3
+2022/11/29 20:16:45.687857 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:45.995708 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:46.043753 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:46.153135 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:46.229387 Bid() | Request received from 1, amount: 7595536897308331146
+2022/11/29 20:16:46.229387 Bid() | Rejected bid from 1
+2022/11/29 20:16:46.245356 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:46.261551 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:46.292573 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:46.337392 Bid() | Request received from 3, amount: 7595536897308331146
+2022/11/29 20:16:46.337392 Bid() | Rejected bid from 3
+2022/11/29 20:16:46.602494 Bid() | Request received from 2, amount: 17562387659468176793
+2022/11/29 20:16:46.602494 Bid() | Rejected bid from 2
+2022/11/29 20:16:46.742170 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:46.834966 Bid() | Request received from 1, amount: 15640108190820309801
+2022/11/29 20:16:46.835548 Bid() | Rejected bid from 1
+2022/11/29 20:16:46.850913 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:46.943457 Bid() | Request received from 3, amount: 15640108190820309801
+2022/11/29 20:16:46.943457 Bid() | Rejected bid from 3
+2022/11/29 20:16:46.959102 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:46.975045 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:46.990524 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:47.082133 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:47.175612 Result() | Sent current auction, 'item-1' lasts 42390ms, id 2 is winning
+2022/11/29 20:16:47.577424 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:47.670318 Bid() | Request received from 1, amount: 18364395511671146699
+2022/11/29 20:16:47.670318 Bid() | Accepted bid from 1
+2022/11/29 20:16:47.688051 Bid() | Request received from 2, amount: 9248328708204351927
+2022/11/29 20:16:47.688151 Bid() | Rejected bid from 2
+2022/11/29 20:16:47.762856 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:47.779530 Bid() | Request received from 3, amount: 18364395511671146699
+2022/11/29 20:16:47.779630 Bid() | Rejected bid from 3
+2022/11/29 20:16:47.871681 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:47.903571 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:47.995729 Bid() | Request received from 2, amount: 9243401946744143948
+2022/11/29 20:16:47.995729 Bid() | Rejected bid from 2
+2022/11/29 20:16:48.058375 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:48.151168 Bid() | Request received from 1, amount: 6281306394171909853
+2022/11/29 20:16:48.151168 Bid() | Rejected bid from 1
+2022/11/29 20:16:48.166649 Bid() | Request received from 2, amount: 5304851760130272338
+2022/11/29 20:16:48.166649 Bid() | Rejected bid from 2
+2022/11/29 20:16:48.259866 Bid() | Request received from 3, amount: 6281306394171909853
+2022/11/29 20:16:48.259866 Bid() | Rejected bid from 3
+2022/11/29 20:16:48.322762 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:48.431454 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:48.524124 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:48.664071 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:48.929083 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:49.020865 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:49.036491 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:49.052850 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:49.112907 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:49.237722 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:49.315723 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:49.546461 Bid() | Request received from 1, amount: 4816302008341817471
+2022/11/29 20:16:49.546970 Bid() | Rejected bid from 1
+2022/11/29 20:16:49.562887 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:49.624514 Bid() | Request received from 3, amount: 4816302008341817471
+2022/11/29 20:16:49.624514 Bid() | Rejected bid from 3
+2022/11/29 20:16:49.749256 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:49.795874 Bid() | Request received from 1, amount: 12028628695601407894
+2022/11/29 20:16:49.795874 Bid() | Rejected bid from 1
+2022/11/29 20:16:49.873059 Bid() | Request received from 3, amount: 12028628695601407894
+2022/11/29 20:16:49.873059 Bid() | Rejected bid from 3
+2022/11/29 20:16:50.012240 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:50.028916 Bid() | Request received from 2, amount: 13444431559748588978
+2022/11/29 20:16:50.028916 Bid() | Rejected bid from 2
+2022/11/29 20:16:50.091387 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:50.215904 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:50.231813 Bid() | Request received from 2, amount: 9142005571789693575
+2022/11/29 20:16:50.231813 Bid() | Rejected bid from 2
+2022/11/29 20:16:50.278033 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:50.292698 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:50.338865 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:50.431168 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:50.491259 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:50.523807 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:50.584748 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:50.601396 Bid() | Request received from 2, amount: 10101090251006758096
+2022/11/29 20:16:50.601396 Bid() | Rejected bid from 2
+2022/11/29 20:16:51.050368 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:51.113012 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:51.159468 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:51.220995 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:51.328401 Bid() | Request received from 1, amount: 475514495644008715
+2022/11/29 20:16:51.328401 Bid() | Rejected bid from 1
+2022/11/29 20:16:51.392653 Bid() | Request received from 3, amount: 475514495644008715
+2022/11/29 20:16:51.392704 Bid() | Rejected bid from 3
+2022/11/29 20:16:51.469891 Bid() | Request received from 1, amount: 5194437026710174430
+2022/11/29 20:16:51.469891 Bid() | Rejected bid from 1
+2022/11/29 20:16:51.532005 Bid() | Request received from 3, amount: 5194437026710174430
+2022/11/29 20:16:51.532005 Bid() | Rejected bid from 3
+2022/11/29 20:16:51.687147 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:51.795459 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:51.858450 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:51.920646 Bid() | Request received from 2, amount: 276697360869719041
+2022/11/29 20:16:51.920646 Bid() | Rejected bid from 2
+2022/11/29 20:16:51.997856 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:52.044265 Bid() | Request received from 1, amount: 10583257618239329997
+2022/11/29 20:16:52.044265 Bid() | Rejected bid from 1
+2022/11/29 20:16:52.075559 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:52.107147 Bid() | Request received from 3, amount: 10583257618239329997
+2022/11/29 20:16:52.107658 Bid() | Rejected bid from 3
+2022/11/29 20:16:52.415702 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:52.461581 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:52.584944 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:52.600875 Result() | Sent current auction, 'item-1' lasts 42390ms, id 1 is winning
+2022/11/29 20:16:52.617055 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:52.694233 Bid() | Request received from 2, amount: 12683710106231650018
+2022/11/29 20:16:52.694233 Bid() | Rejected bid from 2
+2022/11/29 20:16:52.989175 Auction() | Rejected auction 'item-1', 'item-1' is currently live
+2022/11/29 20:16:53.005091 Auction() | Rejected auction 'item-2', 'item-1' is currently live
+2022/11/29 20:16:53.021124 Auction() | Rejected auction 'item-3', 'item-1' is currently live
+2022/11/29 20:16:53.190866 Bid() | Request received from 2, amount: 15667820465687018513
+2022/11/29 20:16:53.190935 Bid() | Rejected bid from 2
+2022/11/29 20:16:53.918456 Result() | Sent last auction, 'item-1' lasted 42390ms, won by id 1
+2022/11/29 20:16:53.995564 Bid() | Request received from 1, amount: 7649502498191460959
+2022/11/29 20:16:53.995617 Bid() | Told 1, auction is over
+2022/11/29 20:16:54.011673 Bid() | Request received from 3, amount: 7649502498191460959
+2022/11/29 20:16:54.011738 Bid() | Told 3, auction is over
+2022/11/29 20:16:54.287569 Result() | Sent last auction, 'item-1' lasted 42390ms, won by id 1
+2022/11/29 20:16:54.303644 Result() | Sent last auction, 'item-1' lasted 42390ms, won by id 1
+2022/11/29 20:16:54.350365 Auction() | Started auction 'item-2', duration: 61855
+2022/11/29 20:16:54.444023 Result() | Sent current auction, 'item-2' lasts 61855ms, id 0 is winning
+2022/11/29 20:16:54.645308 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:54.893176 Result() | Sent current auction, 'item-2' lasts 61855ms, id 0 is winning
+2022/11/29 20:16:54.909592 Result() | Sent current auction, 'item-2' lasts 61855ms, id 0 is winning
+2022/11/29 20:16:54.924456 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:54.985976 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:16:55.001974 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:16:55.017471 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:55.032689 Bid() | Request received from 1, amount: 11784341048672214076
+2022/11/29 20:16:55.032689 Bid() | Accepted bid from 1
+2022/11/29 20:16:55.047838 Bid() | Request received from 3, amount: 11784341048672214076
+2022/11/29 20:16:55.047838 Bid() | Rejected bid from 3
+2022/11/29 20:16:55.138448 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:16:55.155901 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:16:55.201038 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:16:55.217066 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:16:55.308669 Bid() | Request received from 1, amount: 7570870065665294065
+2022/11/29 20:16:55.309232 Bid() | Rejected bid from 1
+2022/11/29 20:16:55.325165 Bid() | Request received from 3, amount: 7570870065665294065
+2022/11/29 20:16:55.325165 Bid() | Rejected bid from 3
+2022/11/29 20:16:55.447872 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:16:55.464635 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:16:55.556836 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:16:55.804957 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:16:55.836441 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:16:55.866380 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:55.912596 Bid() | Request received from 2, amount: 17369117021032372132
+2022/11/29 20:16:55.912596 Bid() | Accepted bid from 2
+2022/11/29 20:16:55.974837 Bid() | Request received from 2, amount: 17426964386392292190
+2022/11/29 20:16:55.974837 Bid() | Accepted bid from 2
+2022/11/29 20:16:56.006917 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:56.115785 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:56.162948 Bid() | Request received from 2, amount: 8504980767045736864
+2022/11/29 20:16:56.163483 Bid() | Rejected bid from 2
+2022/11/29 20:16:56.208913 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:16:56.240190 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:16:56.286884 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:56.317828 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:56.472019 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:56.487809 Bid() | Request received from 1, amount: 14083439142275772067
+2022/11/29 20:16:56.487986 Bid() | Rejected bid from 1
+2022/11/29 20:16:56.504320 Bid() | Request received from 3, amount: 14083439142275772067
+2022/11/29 20:16:56.504834 Bid() | Rejected bid from 3
+2022/11/29 20:16:56.549528 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:56.564687 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:16:56.580331 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:16:56.641625 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:56.796906 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:57.107873 Bid() | Request received from 2, amount: 6319135886153339604
+2022/11/29 20:16:57.107873 Bid() | Rejected bid from 2
+2022/11/29 20:16:57.123432 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:16:57.139090 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:16:57.232457 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:57.248085 Bid() | Request received from 1, amount: 16244724459030797675
+2022/11/29 20:16:57.248085 Bid() | Rejected bid from 1
+2022/11/29 20:16:57.264093 Bid() | Request received from 3, amount: 16244724459030797675
+2022/11/29 20:16:57.264093 Bid() | Rejected bid from 3
+2022/11/29 20:16:57.294697 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:57.309857 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:57.326222 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:57.617434 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:57.633527 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:57.664862 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:57.680408 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:57.741363 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:16:57.758074 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:16:57.819464 Bid() | Request received from 2, amount: 4796285595300188970
+2022/11/29 20:16:57.819464 Bid() | Rejected bid from 2
+2022/11/29 20:16:58.254609 Bid() | Request received from 1, amount: 4031424352830698889
+2022/11/29 20:16:58.255123 Bid() | Rejected bid from 1
+2022/11/29 20:16:58.271541 Bid() | Request received from 3, amount: 4031424352830698889
+2022/11/29 20:16:58.271592 Bid() | Rejected bid from 3
+2022/11/29 20:16:58.317421 Bid() | Request received from 1, amount: 10371786952346920569
+2022/11/29 20:16:58.317934 Bid() | Rejected bid from 1
+2022/11/29 20:16:58.333543 Bid() | Request received from 3, amount: 10371786952346920569
+2022/11/29 20:16:58.334058 Bid() | Rejected bid from 3
+2022/11/29 20:16:58.409484 Bid() | Request received from 1, amount: 3765532354584780115
+2022/11/29 20:16:58.409484 Bid() | Rejected bid from 1
+2022/11/29 20:16:58.426126 Bid() | Request received from 3, amount: 3765532354584780115
+2022/11/29 20:16:58.426630 Bid() | Rejected bid from 3
+2022/11/29 20:16:58.503552 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:58.519551 Result() | Sent current auction, 'item-2' lasts 61855ms, id 2 is winning
+2022/11/29 20:16:58.642449 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:58.658488 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:16:58.674547 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:16:58.796069 Bid() | Request received from 2, amount: 11143154828648505763
+2022/11/29 20:16:58.796069 Bid() | Rejected bid from 2
+2022/11/29 20:16:58.811737 Bid() | Request received from 1, amount: 5685596691916982256
+2022/11/29 20:16:58.811737 Bid() | Rejected bid from 1
+2022/11/29 20:16:58.826943 Bid() | Request received from 3, amount: 5685596691916982256
+2022/11/29 20:16:58.826943 Bid() | Rejected bid from 3
+2022/11/29 20:16:58.887983 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:58.965173 Bid() | Request received from 1, amount: 17641533010751228305
+2022/11/29 20:16:58.965173 Bid() | Accepted bid from 1
+2022/11/29 20:16:58.982046 Bid() | Request received from 3, amount: 17641533010751228305
+2022/11/29 20:16:58.982046 Bid() | Rejected bid from 3
+2022/11/29 20:16:59.075857 Bid() | Request received from 2, amount: 4238911482997720986
+2022/11/29 20:16:59.075857 Bid() | Rejected bid from 2
+2022/11/29 20:16:59.198935 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:59.261294 Bid() | Request received from 2, amount: 374720437565962751
+2022/11/29 20:16:59.261294 Bid() | Rejected bid from 2
+2022/11/29 20:16:59.309122 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:16:59.587174 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:16:59.603397 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:16:59.679010 Bid() | Request received from 2, amount: 1388977341758086111
+2022/11/29 20:16:59.679010 Bid() | Rejected bid from 2
+2022/11/29 20:16:59.884481 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:16:59.901332 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:16:59.917866 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:17:00.212907 Bid() | Request received from 2, amount: 3972272062406904519
+2022/11/29 20:17:00.212907 Bid() | Rejected bid from 2
+2022/11/29 20:17:00.274731 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:17:00.289875 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:17:00.567123 Bid() | Request received from 2, amount: 1698788891394556170
+2022/11/29 20:17:00.567123 Bid() | Rejected bid from 2
+2022/11/29 20:17:00.769659 Bid() | Request received from 2, amount: 16197399404283564219
+2022/11/29 20:17:00.769659 Bid() | Rejected bid from 2
+2022/11/29 20:17:00.831679 Bid() | Request received from 2, amount: 4486530366110888157
+2022/11/29 20:17:00.831679 Bid() | Rejected bid from 2
+2022/11/29 20:17:00.999799 Bid() | Request received from 1, amount: 13528285069693178736
+2022/11/29 20:17:00.999869 Bid() | Rejected bid from 1
+2022/11/29 20:17:01.031847 Bid() | Request received from 3, amount: 13528285069693178736
+2022/11/29 20:17:01.031847 Bid() | Rejected bid from 3
+2022/11/29 20:17:01.121909 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:01.213036 Bid() | Request received from 1, amount: 3519530846738003155
+2022/11/29 20:17:01.213036 Bid() | Rejected bid from 1
+2022/11/29 20:17:01.246164 Bid() | Request received from 3, amount: 3519530846738003155
+2022/11/29 20:17:01.246164 Bid() | Rejected bid from 3
+2022/11/29 20:17:01.276696 Bid() | Request received from 2, amount: 7534287361152924518
+2022/11/29 20:17:01.276696 Bid() | Rejected bid from 2
+2022/11/29 20:17:01.352815 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:01.369593 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:01.400275 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:01.416507 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:01.539566 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:01.911820 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:01.973197 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:02.050472 Bid() | Request received from 2, amount: 482243949045639518
+2022/11/29 20:17:02.050472 Bid() | Rejected bid from 2
+2022/11/29 20:17:02.097984 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:02.176078 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:02.269032 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:02.440458 Bid() | Request received from 2, amount: 769292432684899662
+2022/11/29 20:17:02.440533 Bid() | Rejected bid from 2
+2022/11/29 20:17:02.533670 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:17:02.550377 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:17:02.751380 Bid() | Request received from 2, amount: 15859313120495033623
+2022/11/29 20:17:02.751380 Bid() | Rejected bid from 2
+2022/11/29 20:17:02.843148 Bid() | Request received from 1, amount: 16614994134198634447
+2022/11/29 20:17:02.843228 Bid() | Rejected bid from 1
+2022/11/29 20:17:02.874959 Bid() | Request received from 3, amount: 16614994134198634447
+2022/11/29 20:17:02.874959 Bid() | Rejected bid from 3
+2022/11/29 20:17:02.906760 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:02.923002 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:02.953892 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:02.968354 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:03.014525 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:03.092308 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:03.308819 Bid() | Request received from 1, amount: 7293833845700073975
+2022/11/29 20:17:03.309378 Bid() | Rejected bid from 1
+2022/11/29 20:17:03.340362 Bid() | Request received from 3, amount: 7293833845700073975
+2022/11/29 20:17:03.340362 Bid() | Rejected bid from 3
+2022/11/29 20:17:03.355944 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:03.602330 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:03.648068 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:03.711859 Bid() | Request received from 2, amount: 4017134857471384846
+2022/11/29 20:17:03.712040 Bid() | Rejected bid from 2
+2022/11/29 20:17:03.772009 Bid() | Request received from 1, amount: 10534084956292756134
+2022/11/29 20:17:03.772009 Bid() | Rejected bid from 1
+2022/11/29 20:17:03.818407 Bid() | Request received from 3, amount: 10534084956292756134
+2022/11/29 20:17:03.818407 Bid() | Rejected bid from 3
+2022/11/29 20:17:03.865610 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:03.961164 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:04.082268 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:04.281875 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:17:04.297494 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:04.329496 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:17:04.824083 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:04.841309 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:17:04.885955 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:17:04.993777 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:05.010238 Bid() | Request received from 1, amount: 2838004639447157582
+2022/11/29 20:17:05.010238 Bid() | Rejected bid from 1
+2022/11/29 20:17:05.041579 Bid() | Request received from 3, amount: 2838004639447157582
+2022/11/29 20:17:05.042113 Bid() | Rejected bid from 3
+2022/11/29 20:17:05.179872 Bid() | Request received from 2, amount: 1468799264075862849
+2022/11/29 20:17:05.179872 Bid() | Rejected bid from 2
+2022/11/29 20:17:05.258737 Bid() | Request received from 1, amount: 9125225842262037839
+2022/11/29 20:17:05.258737 Bid() | Rejected bid from 1
+2022/11/29 20:17:05.290647 Bid() | Request received from 3, amount: 9125225842262037839
+2022/11/29 20:17:05.290647 Bid() | Rejected bid from 3
+2022/11/29 20:17:05.322667 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:05.352274 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:05.397972 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:05.614050 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:17:05.646218 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:17:05.755272 Bid() | Request received from 1, amount: 1480113496748763268
+2022/11/29 20:17:05.755786 Bid() | Rejected bid from 1
+2022/11/29 20:17:05.787698 Bid() | Request received from 3, amount: 1480113496748763268
+2022/11/29 20:17:05.788209 Bid() | Rejected bid from 3
+2022/11/29 20:17:05.803440 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:05.819328 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:05.881466 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:05.897241 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:17:05.912830 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:17:06.004628 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:17:06.021694 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:17:06.236913 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:17:06.253148 Bid() | Request received from 2, amount: 12101689282421017968
+2022/11/29 20:17:06.253148 Bid() | Rejected bid from 2
+2022/11/29 20:17:06.269946 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:17:06.499916 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:06.608106 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:06.840200 Bid() | Request received from 1, amount: 3161590188478141109
+2022/11/29 20:17:06.840200 Bid() | Rejected bid from 1
+2022/11/29 20:17:06.872112 Bid() | Request received from 3, amount: 3161590188478141109
+2022/11/29 20:17:06.872171 Bid() | Rejected bid from 3
+2022/11/29 20:17:07.134485 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:07.166385 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:07.257906 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:07.427942 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:07.552692 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:07.753878 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:07.785096 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:07.800313 Result() | Sent current auction, 'item-2' lasts 61855ms, id 1 is winning
+2022/11/29 20:17:07.953586 Auction() | Rejected auction 'item-2', 'item-2' is currently live
+2022/11/29 20:17:08.169390 Auction() | Rejected auction 'item-1', 'item-2' is currently live
+2022/11/29 20:17:08.215844 Auction() | Rejected auction 'item-3', 'item-2' is currently live
+2022/11/29 20:17:08.370468 Bid() | Request received from 1, amount: 17153306900981256162
+2022/11/29 20:17:08.370991 Bid() | Rejected bid from 1
+2022/11/29 20:17:08.433345 Bid() | Request received from 1, amount: 16483425154146807352
+2022/11/29 20:17:08.433345 Bid() | Rejected bid from 1

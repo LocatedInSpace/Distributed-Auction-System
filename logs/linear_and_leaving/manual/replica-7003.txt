@@ -1,0 +1,36 @@
+2022/11/29 19:36:09.208209 Replica started on 127.0.0.1:7003
+2022/11/29 19:36:19.859342 Result() | Told client that there have been no auctions
+2022/11/29 19:37:37.137298 Auction() | Started auction 'titan katowice holo', duration: 50000
+2022/11/29 19:37:38.744048 Result() | Sent current auction, 'titan katowice holo' lasts 50000ms, id 0 is winning
+2022/11/29 19:37:40.066224 Result() | Sent current auction, 'titan katowice holo' lasts 50000ms, id 0 is winning
+2022/11/29 19:37:41.761782 Result() | Sent current auction, 'titan katowice holo' lasts 50000ms, id 0 is winning
+2022/11/29 19:37:43.488762 Bid() | Request received from 3, amount: 5
+2022/11/29 19:37:43.488762 Bid() | Accepted bid from 3
+2022/11/29 19:37:44.758108 Bid() | Request received from 3, amount: 5
+2022/11/29 19:37:44.758108 Bid() | Rejected bid from 3
+2022/11/29 19:37:46.722448 Bid() | Request received from 2, amount: 6
+2022/11/29 19:37:46.722448 Bid() | Accepted bid from 2
+2022/11/29 19:37:48.130522 Result() | Sent current auction, 'titan katowice holo' lasts 50000ms, id 2 is winning
+2022/11/29 19:37:58.737675 Auction() | Rejected auction 'ninjas in pyjamas', 'titan katowice holo' is currently live
+2022/11/29 19:38:08.674521 Bid() | Request received from 2, amount: 2000
+2022/11/29 19:38:08.674521 Bid() | Accepted bid from 2
+2022/11/29 19:38:11.342151 Result() | Sent current auction, 'titan katowice holo' lasts 50000ms, id 2 is winning
+2022/11/29 19:38:16.235425 Bid() | Request received from 3, amount: 30000
+2022/11/29 19:38:16.235425 Bid() | Accepted bid from 3
+2022/11/29 19:38:19.009854 Bid() | Request received from 1, amount: 30001
+2022/11/29 19:38:19.009854 Bid() | Accepted bid from 1
+2022/11/29 19:38:22.041553 Bid() | Request received from 3, amount: 30002
+2022/11/29 19:38:22.041553 Bid() | Accepted bid from 3
+2022/11/29 19:38:24.047112 Result() | Sent current auction, 'titan katowice holo' lasts 50000ms, id 3 is winning
+2022/11/29 19:38:25.116602 Result() | Sent current auction, 'titan katowice holo' lasts 50000ms, id 3 is winning
+2022/11/29 19:38:26.111988 Result() | Sent current auction, 'titan katowice holo' lasts 50000ms, id 3 is winning
+2022/11/29 19:38:27.317083 Result() | Sent last auction, 'titan katowice holo' lasted 50000ms, won by id 3
+2022/11/29 19:40:25.259058 Result() | Sent last auction, 'titan katowice holo' lasted 50000ms, won by id 3
+2022/11/29 19:40:39.838199 Auction() | Started auction 'ibuypower katowice holo', duration: 100000
+2022/11/29 19:40:49.010786 Result() | Sent current auction, 'ibuypower katowice holo' lasts 100000ms, id 0 is winning
+2022/11/29 19:41:07.053768 Result() | Sent current auction, 'ibuypower katowice holo' lasts 100000ms, id 0 is winning
+2022/11/29 19:41:19.542053 Bid() | Request received from 3, amount: 10
+2022/11/29 19:41:19.542053 Bid() | Accepted bid from 3
+2022/11/29 19:41:20.723869 Auction() | Rejected auction 'cheese', 'ibuypower katowice holo' is currently live
+2022/11/29 19:41:21.062251 Bid() | Request received from 2, amount: 30
+2022/11/29 19:41:21.062251 Bid() | Accepted bid from 2

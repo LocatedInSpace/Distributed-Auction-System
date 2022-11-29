@@ -1,0 +1,1758 @@
+2022/11/29 20:16:10.929908 Dial (port: 7000) succeeded
+2022/11/29 20:16:10.930421 Dial (port: 7001) succeeded
+2022/11/29 20:16:10.930999 Dial (port: 7002) succeeded
+2022/11/29 20:16:10.931537 Dial (port: 7003) succeeded
+2022/11/29 20:16:11.430402 --- SendBid queried ---
+2022/11/29 20:16:11.431568 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:11.432128 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:11.432656 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:11.433182 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:11.433182 ---------------------
+2022/11/29 20:16:11.601495 --- StartAuction queried ---
+2022/11/29 20:16:11.602019 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:11.602591 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:11.602716 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:11.603280 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:11.603280 ---------------------
+2022/11/29 20:16:11.603280 message:"An auction is already running"
+2022/11/29 20:16:11.787712 --- GetResults queried ---
+2022/11/29 20:16:11.788224 Port 7000 | left:41539 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:11.788735 Port 7001 | left:41539 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:11.789247 Port 7002 | left:41539 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:11.789247 Port 7003 | left:41539 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:11.789247 ---------------------
+2022/11/29 20:16:11.789247 | Auction for 'item-1' has 41539ms left, starting bid is 12244522765784094240
+2022/11/29 20:16:12.099613 --- SendBid queried ---
+2022/11/29 20:16:12.100148 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.100687 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.101254 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.101833 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.101833 ---------------------
+2022/11/29 20:16:12.162489 --- GetResults queried ---
+2022/11/29 20:16:12.163059 Port 7000 | left:41164 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:12.163612 Port 7001 | left:41164 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:12.163612 Port 7002 | left:41164 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:12.164124 Port 7003 | left:41164 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:12.164124 ---------------------
+2022/11/29 20:16:12.164124 | Auction for 'item-1' has 41164ms left, starting bid is 12244522765784094240
+2022/11/29 20:16:12.595507 --- StartAuction queried ---
+2022/11/29 20:16:12.596043 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:12.596565 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:12.597129 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:12.597129 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:12.597633 ---------------------
+2022/11/29 20:16:12.597643 message:"An auction is already running"
+2022/11/29 20:16:12.687526 --- GetResults queried ---
+2022/11/29 20:16:12.687526 Port 7000 | left:40639 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:12.688048 Port 7001 | left:40639 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:12.688559 Port 7002 | left:40640 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:12.689091 Port 7003 | left:40640 amount:12244522765784094240 item:"item-1"
+2022/11/29 20:16:12.689091 ---------------------
+2022/11/29 20:16:12.689091 | Auction for 'item-1' has 40639ms left, starting bid is 12244522765784094240
+2022/11/29 20:16:12.751459 --- SendBid queried ---
+2022/11/29 20:16:12.751459 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.751994 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.752507 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.753059 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.753059 ---------------------
+2022/11/29 20:16:12.873466 --- SendBid queried ---
+2022/11/29 20:16:12.873980 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.874502 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.875016 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.875016 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:12.875016 ---------------------
+2022/11/29 20:16:13.046354 --- SendBid queried ---
+2022/11/29 20:16:13.046880 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:13.047390 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:13.047973 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:13.048506 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:13.048506 ---------------------
+2022/11/29 20:16:13.094251 --- GetResults queried ---
+2022/11/29 20:16:13.094818 Port 7000 | left:40232 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.095379 Port 7001 | left:40232 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.096016 Port 7002 | left:40232 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.096016 Port 7003 | left:40232 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.096571 ---------------------
+2022/11/29 20:16:13.096571 | Auction for 'item-1' has 40232ms left, highest bid (by id 1) is 17188325338148249707
+2022/11/29 20:16:13.216677 --- StartAuction queried ---
+2022/11/29 20:16:13.216677 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:13.217223 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:13.217734 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:13.217734 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:13.217734 ---------------------
+2022/11/29 20:16:13.217734 message:"An auction is already running"
+2022/11/29 20:16:13.325135 --- GetResults queried ---
+2022/11/29 20:16:13.325651 Port 7000 | left:40001 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.325651 Port 7001 | left:40001 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.326167 Port 7002 | left:40001 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.326675 Port 7003 | left:40002 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.326675 ---------------------
+2022/11/29 20:16:13.326675 | Auction for 'item-1' has 40001ms left, highest bid (by id 1) is 17188325338148249707
+2022/11/29 20:16:13.447199 --- StartAuction queried ---
+2022/11/29 20:16:13.447703 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:13.447749 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:13.448285 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:13.448285 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:13.448285 ---------------------
+2022/11/29 20:16:13.448285 message:"An auction is already running"
+2022/11/29 20:16:13.680103 --- GetResults queried ---
+2022/11/29 20:16:13.680612 Port 7000 | left:39647 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.680651 Port 7001 | left:39646 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.681210 Port 7002 | left:39646 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.681726 Port 7003 | left:39647 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:13.681726 ---------------------
+2022/11/29 20:16:13.681726 | Auction for 'item-1' has 39647ms left, highest bid (by id 1) is 17188325338148249707
+2022/11/29 20:16:14.006384 --- GetResults queried ---
+2022/11/29 20:16:14.006935 Port 7000 | left:39320 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.007446 Port 7001 | left:39320 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.007446 Port 7002 | left:39320 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.007960 Port 7003 | left:39321 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.007960 ---------------------
+2022/11/29 20:16:14.007960 | Auction for 'item-1' has 39320ms left, highest bid (by id 1) is 17188325338148249707
+2022/11/29 20:16:14.114065 --- StartAuction queried ---
+2022/11/29 20:16:14.114580 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:14.115196 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:14.115713 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:14.116258 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:14.116258 ---------------------
+2022/11/29 20:16:14.116258 message:"An auction is already running"
+2022/11/29 20:16:14.176393 --- StartAuction queried ---
+2022/11/29 20:16:14.176924 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:14.177440 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:14.177440 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:14.177970 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:14.177970 ---------------------
+2022/11/29 20:16:14.177970 message:"An auction is already running"
+2022/11/29 20:16:14.409011 --- GetResults queried ---
+2022/11/29 20:16:14.409085 Port 7000 | left:38918 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.409632 Port 7001 | left:38917 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.410195 Port 7002 | left:38918 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.410195 Port 7003 | left:38918 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.410195 ---------------------
+2022/11/29 20:16:14.410698 | Auction for 'item-1' has 38918ms left, highest bid (by id 1) is 17188325338148249707
+2022/11/29 20:16:14.531366 --- GetResults queried ---
+2022/11/29 20:16:14.531366 Port 7000 | left:38795 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.531893 Port 7001 | left:38795 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.532400 Port 7002 | left:38796 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.532400 Port 7003 | left:38796 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:14.532400 ---------------------
+2022/11/29 20:16:14.532912 | Auction for 'item-1' has 38795ms left, highest bid (by id 1) is 17188325338148249707
+2022/11/29 20:16:14.624379 --- SendBid queried ---
+2022/11/29 20:16:14.624426 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:14.625001 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:14.625514 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:14.626017 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:14.626031 ---------------------
+2022/11/29 20:16:14.793875 --- SendBid queried ---
+2022/11/29 20:16:14.794401 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:14.794937 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:14.795507 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:14.795507 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:14.795507 ---------------------
+2022/11/29 20:16:15.582570 --- SendBid queried ---
+2022/11/29 20:16:15.583082 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:15.583082 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:15.583600 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:15.583600 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:15.583600 ---------------------
+2022/11/29 20:16:15.783997 --- SendBid queried ---
+2022/11/29 20:16:15.784590 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:15.785098 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:15.785625 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:15.786163 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:15.786163 ---------------------
+2022/11/29 20:16:16.091670 --- StartAuction queried ---
+2022/11/29 20:16:16.091696 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:16.092208 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:16.092208 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:16.092722 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:16.092722 ---------------------
+2022/11/29 20:16:16.092722 message:"An auction is already running"
+2022/11/29 20:16:16.308344 --- SendBid queried ---
+2022/11/29 20:16:16.308868 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:16.309496 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:16.310048 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:16.310048 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:16.310570 ---------------------
+2022/11/29 20:16:16.371618 --- GetResults queried ---
+2022/11/29 20:16:16.372186 Port 7000 | left:36954 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:16.372810 Port 7001 | left:36954 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:16.373399 Port 7002 | left:36955 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:16.373902 Port 7003 | left:36955 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:16.373959 ---------------------
+2022/11/29 20:16:16.373959 | Auction for 'item-1' has 36954ms left, highest bid (by id 1) is 17188325338148249707
+2022/11/29 20:16:16.602318 --- GetResults queried ---
+2022/11/29 20:16:16.602318 Port 7000 | left:36724 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:16.602839 Port 7001 | left:36724 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:16.603346 Port 7002 | left:36725 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:16.603346 Port 7003 | left:36725 amount:17188325338148249707 bidder:1 item:"item-1"
+2022/11/29 20:16:16.603883 ---------------------
+2022/11/29 20:16:16.603883 | Auction for 'item-1' has 36724ms left, highest bid (by id 1) is 17188325338148249707
+2022/11/29 20:16:16.848809 --- StartAuction queried ---
+2022/11/29 20:16:16.849889 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:16.850416 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:16.850937 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:16.851515 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:16.851515 ---------------------
+2022/11/29 20:16:16.851515 message:"An auction is already running"
+2022/11/29 20:16:17.298087 --- SendBid queried ---
+2022/11/29 20:16:17.298602 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:17.299148 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:17.299148 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:17.299659 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:17.299659 ---------------------
+2022/11/29 20:16:17.606324 --- StartAuction queried ---
+2022/11/29 20:16:17.606915 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:17.607453 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:17.608037 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:17.608604 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:17.608604 ---------------------
+2022/11/29 20:16:17.608604 message:"An auction is already running"
+2022/11/29 20:16:17.903446 --- SendBid queried ---
+2022/11/29 20:16:17.904026 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:17.904600 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:17.905138 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:17.905664 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:17.905664 ---------------------
+2022/11/29 20:16:18.290031 --- GetResults queried ---
+2022/11/29 20:16:18.290642 Port 7000 | left:35037 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:18.290762 Port 7001 | left:35036 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:18.291274 Port 7002 | left:35037 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:18.291274 Port 7003 | left:35037 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:18.291274 ---------------------
+2022/11/29 20:16:18.291274 | Auction for 'item-1' has 35037ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:18.399824 --- StartAuction queried ---
+2022/11/29 20:16:18.400378 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:18.400925 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:18.401440 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:18.401971 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:18.401971 ---------------------
+2022/11/29 20:16:18.401971 message:"An auction is already running"
+2022/11/29 20:16:18.647784 --- SendBid queried ---
+2022/11/29 20:16:18.648296 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:18.648814 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:18.649363 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:18.649894 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:18.649894 ---------------------
+2022/11/29 20:16:18.816829 --- GetResults queried ---
+2022/11/29 20:16:18.817352 Port 7000 | left:34509 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:18.817915 Port 7001 | left:34509 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:18.818444 Port 7002 | left:34510 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:18.818444 Port 7003 | left:34510 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:18.818444 ---------------------
+2022/11/29 20:16:18.818961 | Auction for 'item-1' has 34509ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:18.893673 --- StartAuction queried ---
+2022/11/29 20:16:18.894211 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:18.894211 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:18.894786 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:18.895294 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:18.895318 ---------------------
+2022/11/29 20:16:18.895318 message:"An auction is already running"
+2022/11/29 20:16:19.217146 --- StartAuction queried ---
+2022/11/29 20:16:19.232480 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:19.232984 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:19.233238 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:19.233749 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:19.233749 ---------------------
+2022/11/29 20:16:19.233749 message:"An auction is already running"
+2022/11/29 20:16:19.278614 --- SendBid queried ---
+2022/11/29 20:16:19.279117 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:19.279731 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:19.279731 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:19.280242 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:19.280242 ---------------------
+2022/11/29 20:16:19.387958 --- GetResults queried ---
+2022/11/29 20:16:19.388472 Port 7000 | left:33938 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.389005 Port 7001 | left:33938 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.389530 Port 7002 | left:33939 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.389530 Port 7003 | left:33939 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.389530 ---------------------
+2022/11/29 20:16:19.389530 | Auction for 'item-1' has 33938ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:19.543065 --- GetResults queried ---
+2022/11/29 20:16:19.543629 Port 7000 | left:33784 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.544192 Port 7001 | left:33783 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.544192 Port 7002 | left:33783 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.544700 Port 7003 | left:33784 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.544700 ---------------------
+2022/11/29 20:16:19.544700 | Auction for 'item-1' has 33784ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:19.729435 --- SendBid queried ---
+2022/11/29 20:16:19.730004 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:19.730529 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:19.731118 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:19.731699 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:19.731699 ---------------------
+2022/11/29 20:16:19.853379 --- GetResults queried ---
+2022/11/29 20:16:19.853882 Port 7000 | left:33473 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.853936 Port 7001 | left:33473 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.854447 Port 7002 | left:33474 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.854447 Port 7003 | left:33474 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:19.854447 ---------------------
+2022/11/29 20:16:19.854447 | Auction for 'item-1' has 33473ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:20.007080 --- StartAuction queried ---
+2022/11/29 20:16:20.007604 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:20.007604 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:20.008117 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:20.008117 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:20.008620 ---------------------
+2022/11/29 20:16:20.008642 message:"An auction is already running"
+2022/11/29 20:16:20.054114 --- GetResults queried ---
+2022/11/29 20:16:20.054710 Port 7000 | left:33272 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:20.055251 Port 7001 | left:33272 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:20.055754 Port 7002 | left:33272 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:20.055762 Port 7003 | left:33272 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:20.055762 ---------------------
+2022/11/29 20:16:20.055762 | Auction for 'item-1' has 33272ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:20.502094 --- GetResults queried ---
+2022/11/29 20:16:20.502655 Port 7000 | left:32824 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:20.503167 Port 7001 | left:32824 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:20.503820 Port 7002 | left:32824 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:20.504331 Port 7003 | left:32824 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:20.504331 ---------------------
+2022/11/29 20:16:20.504331 | Auction for 'item-1' has 32824ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:21.042900 --- StartAuction queried ---
+2022/11/29 20:16:21.058679 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:21.059236 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:21.059755 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:21.060319 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:21.060319 ---------------------
+2022/11/29 20:16:21.060319 message:"An auction is already running"
+2022/11/29 20:16:21.213577 --- GetResults queried ---
+2022/11/29 20:16:21.214187 Port 7000 | left:32113 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:21.214690 Port 7001 | left:32113 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:21.214757 Port 7002 | left:32113 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:21.215270 Port 7003 | left:32113 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:21.215270 ---------------------
+2022/11/29 20:16:21.215270 | Auction for 'item-1' has 32113ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:21.601321 --- SendBid queried ---
+2022/11/29 20:16:21.601848 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:21.602390 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:21.603002 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:21.603512 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:21.603512 ---------------------
+2022/11/29 20:16:21.633504 --- SendBid queried ---
+2022/11/29 20:16:21.634574 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:21.635108 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:21.635620 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:21.636232 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:21.636232 ---------------------
+2022/11/29 20:16:21.774145 --- GetResults queried ---
+2022/11/29 20:16:21.774667 Port 7000 | left:31552 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:21.775182 Port 7001 | left:31552 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:21.775182 Port 7002 | left:31552 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:21.775698 Port 7003 | left:31552 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:21.775698 ---------------------
+2022/11/29 20:16:21.775698 | Auction for 'item-1' has 31552ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:22.022001 --- GetResults queried ---
+2022/11/29 20:16:22.022513 Port 7000 | left:31304 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.023025 Port 7001 | left:31304 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.023536 Port 7002 | left:31305 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.024047 Port 7003 | left:31305 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.024047 ---------------------
+2022/11/29 20:16:22.024047 | Auction for 'item-1' has 31304ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:22.098745 --- SendBid queried ---
+2022/11/29 20:16:22.099253 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:22.099276 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:22.099796 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:22.100308 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:22.100308 ---------------------
+2022/11/29 20:16:22.301188 --- GetResults queried ---
+2022/11/29 20:16:22.301188 Port 7000 | left:31025 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.301801 Port 7001 | left:31025 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.301801 Port 7002 | left:31026 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.302324 Port 7003 | left:31026 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.302324 ---------------------
+2022/11/29 20:16:22.302837 | Auction for 'item-1' has 31025ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:22.410308 --- GetResults queried ---
+2022/11/29 20:16:22.410821 Port 7000 | left:30916 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.410821 Port 7001 | left:30916 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.411333 Port 7002 | left:30916 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.411844 Port 7003 | left:30917 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:22.411844 ---------------------
+2022/11/29 20:16:22.411844 | Auction for 'item-1' has 30916ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:22.502508 --- SendBid queried ---
+2022/11/29 20:16:22.503037 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:22.503547 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:22.504089 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:22.504613 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:22.504613 ---------------------
+2022/11/29 20:16:22.610536 --- StartAuction queried ---
+2022/11/29 20:16:22.611051 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:22.611051 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:22.611612 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:22.612170 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:22.612170 ---------------------
+2022/11/29 20:16:22.612707 message:"An auction is already running"
+2022/11/29 20:16:22.843817 --- StartAuction queried ---
+2022/11/29 20:16:22.844338 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:22.844338 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:22.844854 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:22.845365 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:22.845365 ---------------------
+2022/11/29 20:16:22.845365 message:"An auction is already running"
+2022/11/29 20:16:23.323206 --- SendBid queried ---
+2022/11/29 20:16:23.323723 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.324225 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.324233 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.324747 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.324747 ---------------------
+2022/11/29 20:16:23.494837 --- SendBid queried ---
+2022/11/29 20:16:23.495375 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.495375 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.495888 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.495888 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.495888 ---------------------
+2022/11/29 20:16:23.572227 --- SendBid queried ---
+2022/11/29 20:16:23.572794 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.573380 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.573905 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.574431 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.574431 ---------------------
+2022/11/29 20:16:23.634983 --- SendBid queried ---
+2022/11/29 20:16:23.635502 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.636063 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.636590 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.637133 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:23.637133 ---------------------
+2022/11/29 20:16:23.682701 --- GetResults queried ---
+2022/11/29 20:16:23.698938 Port 7000 | left:29628 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:23.699130 Port 7001 | left:29628 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:23.699701 Port 7002 | left:29628 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:23.699701 Port 7003 | left:29628 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:23.700213 ---------------------
+2022/11/29 20:16:23.700213 | Auction for 'item-1' has 29628ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:23.807057 --- GetResults queried ---
+2022/11/29 20:16:23.807644 Port 7000 | left:29519 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:23.807644 Port 7001 | left:29519 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:23.808215 Port 7002 | left:29519 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:23.808738 Port 7003 | left:29520 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:23.808738 ---------------------
+2022/11/29 20:16:23.808738 | Auction for 'item-1' has 29519ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:25.391316 --- StartAuction queried ---
+2022/11/29 20:16:25.391820 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:25.391888 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:25.392455 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:25.392455 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:25.392455 ---------------------
+2022/11/29 20:16:25.392455 message:"An auction is already running"
+2022/11/29 20:16:25.687317 --- GetResults queried ---
+2022/11/29 20:16:25.687834 Port 7000 | left:27639 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:25.687834 Port 7001 | left:27639 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:25.688483 Port 7002 | left:27639 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:25.688483 Port 7003 | left:27640 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:25.688483 ---------------------
+2022/11/29 20:16:25.688483 | Auction for 'item-1' has 27639ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:25.750725 --- StartAuction queried ---
+2022/11/29 20:16:25.751230 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:25.751247 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:25.751764 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:25.751764 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:25.751764 ---------------------
+2022/11/29 20:16:25.752282 message:"An auction is already running"
+2022/11/29 20:16:26.400405 --- StartAuction queried ---
+2022/11/29 20:16:26.400975 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:26.401491 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:26.401491 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:26.402049 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:26.402049 ---------------------
+2022/11/29 20:16:26.402049 message:"An auction is already running"
+2022/11/29 20:16:26.634257 --- GetResults queried ---
+2022/11/29 20:16:26.634810 Port 7000 | left:26692 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:26.635313 Port 7001 | left:26692 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:26.635370 Port 7002 | left:26692 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:26.635882 Port 7003 | left:26692 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:26.635882 ---------------------
+2022/11/29 20:16:26.635882 | Auction for 'item-1' has 26692ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:26.667449 --- GetResults queried ---
+2022/11/29 20:16:26.667998 Port 7000 | left:26659 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:26.668528 Port 7001 | left:26659 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:26.669060 Port 7002 | left:26659 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:26.669593 Port 7003 | left:26659 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:26.669593 ---------------------
+2022/11/29 20:16:26.669593 | Auction for 'item-1' has 26659ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:26.775756 --- StartAuction queried ---
+2022/11/29 20:16:26.775756 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:26.776299 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:26.776883 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:26.777404 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:26.777404 ---------------------
+2022/11/29 20:16:26.777404 message:"An auction is already running"
+2022/11/29 20:16:26.914954 --- SendBid queried ---
+2022/11/29 20:16:26.915043 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:26.915555 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:26.916067 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:26.916607 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:26.916607 ---------------------
+2022/11/29 20:16:27.022508 --- GetResults queried ---
+2022/11/29 20:16:27.023017 Port 7000 | left:26304 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:27.023530 Port 7001 | left:26304 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:27.024050 Port 7002 | left:26304 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:27.024554 Port 7003 | left:26304 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:27.024620 ---------------------
+2022/11/29 20:16:27.024620 | Auction for 'item-1' has 26304ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:27.567562 --- StartAuction queried ---
+2022/11/29 20:16:27.568140 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:27.568739 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:27.569242 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:27.569434 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:27.569434 ---------------------
+2022/11/29 20:16:27.569434 message:"An auction is already running"
+2022/11/29 20:16:27.613222 --- GetResults queried ---
+2022/11/29 20:16:27.613823 Port 7000 | left:25713 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:27.614360 Port 7001 | left:25713 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:27.614872 Port 7002 | left:25713 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:27.615375 Port 7003 | left:25713 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:27.615375 ---------------------
+2022/11/29 20:16:27.615375 | Auction for 'item-1' has 25713ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:27.649270 --- StartAuction queried ---
+2022/11/29 20:16:27.649270 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:27.649829 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:27.650366 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:27.650366 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:27.650366 ---------------------
+2022/11/29 20:16:27.650366 message:"An auction is already running"
+2022/11/29 20:16:27.816781 --- StartAuction queried ---
+2022/11/29 20:16:27.817326 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:27.817326 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:27.817839 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:27.817839 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:27.817839 ---------------------
+2022/11/29 20:16:27.818352 message:"An auction is already running"
+2022/11/29 20:16:28.016289 --- StartAuction queried ---
+2022/11/29 20:16:28.016798 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:28.017306 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:28.017873 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:28.017873 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:28.017873 ---------------------
+2022/11/29 20:16:28.018453 message:"An auction is already running"
+2022/11/29 20:16:28.277921 --- StartAuction queried ---
+2022/11/29 20:16:28.278501 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:28.278501 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:28.279013 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:28.279529 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:28.279529 ---------------------
+2022/11/29 20:16:28.279529 message:"An auction is already running"
+2022/11/29 20:16:28.619440 --- GetResults queried ---
+2022/11/29 20:16:28.621363 Port 7000 | left:24707 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:28.622698 Port 7001 | left:24705 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:28.623546 Port 7002 | left:24705 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:28.625183 Port 7003 | left:24704 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:28.625701 ---------------------
+2022/11/29 20:16:28.626272 | Auction for 'item-1' has 24707ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:28.895260 --- GetResults queried ---
+2022/11/29 20:16:28.895769 Port 7000 | left:24431 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:28.896313 Port 7001 | left:24431 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:28.896313 Port 7002 | left:24431 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:28.896843 Port 7003 | left:24431 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:28.896843 ---------------------
+2022/11/29 20:16:28.896843 | Auction for 'item-1' has 24431ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:29.128058 --- StartAuction queried ---
+2022/11/29 20:16:29.128058 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:29.128576 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:29.129106 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:29.129106 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:29.129106 ---------------------
+2022/11/29 20:16:29.129620 message:"An auction is already running"
+2022/11/29 20:16:29.745376 --- SendBid queried ---
+2022/11/29 20:16:29.745910 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:29.746521 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:29.747073 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:29.747599 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:29.747599 ---------------------
+2022/11/29 20:16:29.899009 --- StartAuction queried ---
+2022/11/29 20:16:29.915290 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:29.915290 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:29.915813 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:29.916385 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:29.916561 ---------------------
+2022/11/29 20:16:29.916561 message:"An auction is already running"
+2022/11/29 20:16:30.459000 --- GetResults queried ---
+2022/11/29 20:16:30.459517 Port 7000 | left:22867 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.460114 Port 7001 | left:22867 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.460638 Port 7002 | left:22868 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.461165 Port 7003 | left:22868 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.461165 ---------------------
+2022/11/29 20:16:30.461165 | Auction for 'item-1' has 22867ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:30.644143 --- GetResults queried ---
+2022/11/29 20:16:30.644682 Port 7000 | left:22682 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.645241 Port 7001 | left:22682 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.645241 Port 7002 | left:22682 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.645759 Port 7003 | left:22682 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.645759 ---------------------
+2022/11/29 20:16:30.645759 | Auction for 'item-1' has 22682ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:30.877691 --- SendBid queried ---
+2022/11/29 20:16:30.878231 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:30.878231 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:30.878798 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:30.879301 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:30.879308 ---------------------
+2022/11/29 20:16:30.925183 --- GetResults queried ---
+2022/11/29 20:16:30.925732 Port 7000 | left:22401 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.925732 Port 7001 | left:22401 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.926269 Port 7002 | left:22401 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.926789 Port 7003 | left:22402 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:30.926789 ---------------------
+2022/11/29 20:16:30.926789 | Auction for 'item-1' has 22401ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:31.111981 --- SendBid queried ---
+2022/11/29 20:16:31.111981 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:31.112500 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:31.113014 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:31.113518 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:31.113528 ---------------------
+2022/11/29 20:16:31.389104 --- StartAuction queried ---
+2022/11/29 20:16:31.389660 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:31.390162 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:31.390409 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:31.390935 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:31.390935 ---------------------
+2022/11/29 20:16:31.390935 message:"An auction is already running"
+2022/11/29 20:16:31.449350 --- SendBid queried ---
+2022/11/29 20:16:31.449914 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:31.449914 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:31.450426 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:31.450426 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:31.450426 ---------------------
+2022/11/29 20:16:31.806409 --- StartAuction queried ---
+2022/11/29 20:16:31.806978 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:31.807495 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:31.808035 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:31.808035 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:31.808539 ---------------------
+2022/11/29 20:16:31.808560 message:"An auction is already running"
+2022/11/29 20:16:32.069258 --- StartAuction queried ---
+2022/11/29 20:16:32.069258 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:32.069778 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:32.070292 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:32.070795 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:32.070808 ---------------------
+2022/11/29 20:16:32.070808 message:"An auction is already running"
+2022/11/29 20:16:32.319519 --- GetResults queried ---
+2022/11/29 20:16:32.320070 Port 7000 | left:21007 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:32.320599 Port 7001 | left:21007 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:32.320599 Port 7002 | left:21007 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:32.321125 Port 7003 | left:21007 amount:17488435266537137574 bidder:1 item:"item-1"
+2022/11/29 20:16:32.321125 ---------------------
+2022/11/29 20:16:32.321641 | Auction for 'item-1' has 21007ms left, highest bid (by id 1) is 17488435266537137574
+2022/11/29 20:16:32.489428 --- SendBid queried ---
+2022/11/29 20:16:32.489961 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:32.490513 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:32.491039 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:32.491580 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:32.491580 ---------------------
+2022/11/29 20:16:32.675262 --- StartAuction queried ---
+2022/11/29 20:16:32.675800 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:32.676313 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:32.676313 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:32.676832 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:32.676832 ---------------------
+2022/11/29 20:16:32.676832 message:"An auction is already running"
+2022/11/29 20:16:32.800655 --- GetResults queried ---
+2022/11/29 20:16:32.800655 Port 7000 | left:20526 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:32.801178 Port 7001 | left:20526 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:32.801688 Port 7002 | left:20526 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:32.801688 Port 7003 | left:20526 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:32.801688 ---------------------
+2022/11/29 20:16:32.802201 | Auction for 'item-1' has 20526ms left, highest bid (by id 1) is 17962379410073910559
+2022/11/29 20:16:33.388180 --- StartAuction queried ---
+2022/11/29 20:16:33.388722 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:33.389226 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:33.389355 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:33.389899 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:33.389899 ---------------------
+2022/11/29 20:16:33.389899 message:"An auction is already running"
+2022/11/29 20:16:33.606898 --- SendBid queried ---
+2022/11/29 20:16:33.607418 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.607956 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.608516 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.609034 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.609034 ---------------------
+2022/11/29 20:16:33.790252 --- SendBid queried ---
+2022/11/29 20:16:33.790767 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.791279 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.791279 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.791799 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.791799 ---------------------
+2022/11/29 20:16:33.945580 --- SendBid queried ---
+2022/11/29 20:16:33.946908 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.947463 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.948095 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.948610 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:33.948610 ---------------------
+2022/11/29 20:16:34.037303 --- StartAuction queried ---
+2022/11/29 20:16:34.037883 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:34.038395 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:34.038395 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:34.038908 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:34.038908 ---------------------
+2022/11/29 20:16:34.038908 message:"An auction is already running"
+2022/11/29 20:16:34.209865 --- StartAuction queried ---
+2022/11/29 20:16:34.210389 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:34.210896 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:34.211434 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:34.211434 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:34.211975 ---------------------
+2022/11/29 20:16:34.211975 message:"An auction is already running"
+2022/11/29 20:16:34.395234 --- StartAuction queried ---
+2022/11/29 20:16:34.395803 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:34.396323 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:34.396854 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:34.396854 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:34.397380 ---------------------
+2022/11/29 20:16:34.397380 message:"An auction is already running"
+2022/11/29 20:16:34.565314 --- GetResults queried ---
+2022/11/29 20:16:34.565826 Port 7000 | left:18761 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:34.565826 Port 7001 | left:18761 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:34.566336 Port 7002 | left:18761 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:34.566336 Port 7003 | left:18762 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:34.566336 ---------------------
+2022/11/29 20:16:34.566860 | Auction for 'item-1' has 18761ms left, highest bid (by id 1) is 17962379410073910559
+2022/11/29 20:16:34.625944 --- StartAuction queried ---
+2022/11/29 20:16:34.626462 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:34.626462 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:34.626988 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:34.626988 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:34.626988 ---------------------
+2022/11/29 20:16:34.626988 message:"An auction is already running"
+2022/11/29 20:16:34.718440 --- StartAuction queried ---
+2022/11/29 20:16:34.718944 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:34.719017 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:34.719538 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:34.719538 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:34.719538 ---------------------
+2022/11/29 20:16:34.719538 message:"An auction is already running"
+2022/11/29 20:16:34.826847 --- SendBid queried ---
+2022/11/29 20:16:34.827414 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:34.827480 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:34.828017 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:34.828017 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:34.828017 ---------------------
+2022/11/29 20:16:34.905595 --- GetResults queried ---
+2022/11/29 20:16:34.906111 Port 7000 | left:18421 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:34.906111 Port 7001 | left:18421 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:34.906779 Port 7002 | left:18421 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:34.906779 Port 7003 | left:18421 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:34.907295 ---------------------
+2022/11/29 20:16:34.907295 | Auction for 'item-1' has 18421ms left, highest bid (by id 1) is 17962379410073910559
+2022/11/29 20:16:35.151330 --- SendBid queried ---
+2022/11/29 20:16:35.151856 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.152367 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.153436 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.154009 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.154104 ---------------------
+2022/11/29 20:16:35.214209 --- StartAuction queried ---
+2022/11/29 20:16:35.214727 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:35.215311 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:35.215875 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:35.215875 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:35.216412 ---------------------
+2022/11/29 20:16:35.216417 message:"An auction is already running"
+2022/11/29 20:16:35.291768 --- GetResults queried ---
+2022/11/29 20:16:35.291768 Port 7000 | left:18035 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.292289 Port 7001 | left:18035 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.292793 Port 7002 | left:18035 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.292816 Port 7003 | left:18035 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.292816 ---------------------
+2022/11/29 20:16:35.292816 | Auction for 'item-1' has 18035ms left, highest bid (by id 1) is 17962379410073910559
+2022/11/29 20:16:35.368196 --- SendBid queried ---
+2022/11/29 20:16:35.368196 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.368705 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.369247 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.369247 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.369750 ---------------------
+2022/11/29 20:16:35.522651 --- SendBid queried ---
+2022/11/29 20:16:35.523163 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.523163 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.523678 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.523678 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.524189 ---------------------
+2022/11/29 20:16:35.615744 --- GetResults queried ---
+2022/11/29 20:16:35.616299 Port 7000 | left:17711 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.616809 Port 7001 | left:17711 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.616809 Port 7002 | left:17711 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.617335 Port 7003 | left:17711 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.617335 ---------------------
+2022/11/29 20:16:35.617335 | Auction for 'item-1' has 17711ms left, highest bid (by id 1) is 17962379410073910559
+2022/11/29 20:16:35.663217 --- SendBid queried ---
+2022/11/29 20:16:35.663839 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.664353 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.664353 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.664873 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:35.664873 ---------------------
+2022/11/29 20:16:35.768551 --- GetResults queried ---
+2022/11/29 20:16:35.769076 Port 7000 | left:17558 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.769597 Port 7001 | left:17558 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.770100 Port 7002 | left:17558 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.770207 Port 7003 | left:17558 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:35.770207 ---------------------
+2022/11/29 20:16:35.770207 | Auction for 'item-1' has 17558ms left, highest bid (by id 1) is 17962379410073910559
+2022/11/29 20:16:36.046703 --- SendBid queried ---
+2022/11/29 20:16:36.047245 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:36.047753 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:36.047804 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:36.048315 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:36.048315 ---------------------
+2022/11/29 20:16:36.125886 --- StartAuction queried ---
+2022/11/29 20:16:36.126407 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:36.126927 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:36.126927 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:36.127439 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:36.127439 ---------------------
+2022/11/29 20:16:36.127439 message:"An auction is already running"
+2022/11/29 20:16:36.157181 --- SendBid queried ---
+2022/11/29 20:16:36.157757 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:36.158261 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:36.158314 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:36.158850 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:36.158850 ---------------------
+2022/11/29 20:16:36.218424 --- GetResults queried ---
+2022/11/29 20:16:36.218973 Port 7000 | left:17108 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.218973 Port 7001 | left:17108 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.219493 Port 7002 | left:17108 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.219493 Port 7003 | left:17109 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.219493 ---------------------
+2022/11/29 20:16:36.219493 | Auction for 'item-1' has 17108ms left, highest bid (by id 1) is 17962379410073910559
+2022/11/29 20:16:36.464983 --- GetResults queried ---
+2022/11/29 20:16:36.465634 Port 7000 | left:16861 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.466152 Port 7001 | left:16861 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.466152 Port 7002 | left:16861 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.466742 Port 7003 | left:16861 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.466742 ---------------------
+2022/11/29 20:16:36.466742 | Auction for 'item-1' has 16861ms left, highest bid (by id 1) is 17962379410073910559
+2022/11/29 20:16:36.741681 --- GetResults queried ---
+2022/11/29 20:16:36.742193 Port 7000 | left:16584 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.742705 Port 7001 | left:16585 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.743213 Port 7002 | left:16585 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.743263 Port 7003 | left:16585 amount:17962379410073910559 bidder:1 item:"item-1"
+2022/11/29 20:16:36.743263 ---------------------
+2022/11/29 20:16:36.743263 | Auction for 'item-1' has 16584ms left, highest bid (by id 1) is 17962379410073910559
+2022/11/29 20:16:37.237827 --- StartAuction queried ---
+2022/11/29 20:16:37.238388 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:37.238985 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:37.238985 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:37.239552 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:37.239552 ---------------------
+2022/11/29 20:16:37.239552 message:"An auction is already running"
+2022/11/29 20:16:37.316572 --- SendBid queried ---
+2022/11/29 20:16:37.317175 Port 7000 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:37.317689 Port 7001 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:37.318207 Port 7002 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:37.318798 Port 7003 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:37.318798 ---------------------
+2022/11/29 20:16:37.438524 --- SendBid queried ---
+2022/11/29 20:16:37.439059 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:37.439583 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:37.440099 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:37.440610 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:37.440610 ---------------------
+2022/11/29 20:16:37.500605 --- StartAuction queried ---
+2022/11/29 20:16:37.501138 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:37.501698 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:37.501698 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:37.502230 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:37.502230 ---------------------
+2022/11/29 20:16:37.502768 message:"An auction is already running"
+2022/11/29 20:16:37.920064 --- StartAuction queried ---
+2022/11/29 20:16:37.920064 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:37.920584 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:37.921098 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:37.921098 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:37.921098 ---------------------
+2022/11/29 20:16:37.921613 message:"An auction is already running"
+2022/11/29 20:16:38.168222 --- GetResults queried ---
+2022/11/29 20:16:38.168794 Port 7000 | left:15158 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:38.169340 Port 7001 | left:15158 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:38.169942 Port 7002 | left:15158 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:38.169942 Port 7003 | left:15158 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:38.169942 ---------------------
+2022/11/29 20:16:38.169942 | Auction for 'item-1' has 15158ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:38.292050 --- StartAuction queried ---
+2022/11/29 20:16:38.292571 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:38.292571 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:38.293118 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:38.293679 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:38.293679 ---------------------
+2022/11/29 20:16:38.293679 message:"An auction is already running"
+2022/11/29 20:16:38.447040 --- StartAuction queried ---
+2022/11/29 20:16:38.447584 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:38.448109 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:38.448617 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:38.449126 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:38.449230 ---------------------
+2022/11/29 20:16:38.449230 message:"An auction is already running"
+2022/11/29 20:16:38.552837 --- SendBid queried ---
+2022/11/29 20:16:38.553385 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:38.553929 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:38.554436 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:38.554973 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:38.554973 ---------------------
+2022/11/29 20:16:38.645339 --- StartAuction queried ---
+2022/11/29 20:16:38.645339 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:38.645855 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:38.646363 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:38.646363 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:38.646363 ---------------------
+2022/11/29 20:16:38.646363 message:"An auction is already running"
+2022/11/29 20:16:39.046549 --- StartAuction queried ---
+2022/11/29 20:16:39.046549 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:39.047083 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:39.047083 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:39.047591 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:39.047591 ---------------------
+2022/11/29 20:16:39.047591 message:"An auction is already running"
+2022/11/29 20:16:39.091633 --- GetResults queried ---
+2022/11/29 20:16:39.092203 Port 7000 | left:14234 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:39.092769 Port 7001 | left:14234 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:39.093282 Port 7002 | left:14235 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:39.093282 Port 7003 | left:14235 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:39.093793 ---------------------
+2022/11/29 20:16:39.093793 | Auction for 'item-1' has 14234ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:39.123167 --- GetResults queried ---
+2022/11/29 20:16:39.138158 Port 7000 | left:14188 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:39.138723 Port 7001 | left:14188 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:39.139319 Port 7002 | left:14188 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:39.139823 Port 7003 | left:14189 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:39.139857 ---------------------
+2022/11/29 20:16:39.139857 | Auction for 'item-1' has 14188ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:39.448645 --- StartAuction queried ---
+2022/11/29 20:16:39.464620 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:39.465150 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:39.465660 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:39.466212 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:39.466212 ---------------------
+2022/11/29 20:16:39.466754 message:"An auction is already running"
+2022/11/29 20:16:39.819394 --- SendBid queried ---
+2022/11/29 20:16:39.819394 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:39.819920 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:39.820488 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:39.820999 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:39.820999 ---------------------
+2022/11/29 20:16:40.344301 --- StartAuction queried ---
+2022/11/29 20:16:40.344829 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:40.345387 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:40.345387 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:40.345900 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:40.345900 ---------------------
+2022/11/29 20:16:40.346410 message:"An auction is already running"
+2022/11/29 20:16:40.642650 --- GetResults queried ---
+2022/11/29 20:16:40.643178 Port 7000 | left:12684 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:40.643744 Port 7001 | left:12684 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:40.643744 Port 7002 | left:12684 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:40.644258 Port 7003 | left:12684 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:40.644258 ---------------------
+2022/11/29 20:16:40.644258 | Auction for 'item-1' has 12684ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:40.797035 --- SendBid queried ---
+2022/11/29 20:16:40.797601 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:40.797721 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:40.798283 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:40.798796 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:40.798796 ---------------------
+2022/11/29 20:16:40.903537 --- GetResults queried ---
+2022/11/29 20:16:40.904052 Port 7000 | left:12423 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:40.904589 Port 7001 | left:12423 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:40.904589 Port 7002 | left:12423 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:40.905109 Port 7003 | left:12424 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:40.905109 ---------------------
+2022/11/29 20:16:40.905109 | Auction for 'item-1' has 12423ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:41.135536 --- GetResults queried ---
+2022/11/29 20:16:41.136039 Port 7000 | left:12191 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:41.136276 Port 7001 | left:12191 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:41.136789 Port 7002 | left:12191 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:41.136789 Port 7003 | left:12191 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:41.137303 ---------------------
+2022/11/29 20:16:41.137303 | Auction for 'item-1' has 12191ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:42.296335 --- StartAuction queried ---
+2022/11/29 20:16:42.296905 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:42.296905 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:42.297422 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:42.297933 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:42.297933 ---------------------
+2022/11/29 20:16:42.297933 message:"An auction is already running"
+2022/11/29 20:16:42.561784 --- StartAuction queried ---
+2022/11/29 20:16:42.562356 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:42.563396 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:42.563462 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:42.563975 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:42.564486 ---------------------
+2022/11/29 20:16:42.564486 message:"An auction is already running"
+2022/11/29 20:16:43.025621 --- GetResults queried ---
+2022/11/29 20:16:43.026181 Port 7000 | left:10301 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.026181 Port 7001 | left:10301 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.026691 Port 7002 | left:10301 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.027206 Port 7003 | left:10301 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.027206 ---------------------
+2022/11/29 20:16:43.027206 | Auction for 'item-1' has 10301ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:43.275022 --- GetResults queried ---
+2022/11/29 20:16:43.275543 Port 7000 | left:10052 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.276073 Port 7001 | left:10052 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.276582 Port 7002 | left:10052 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.276582 Port 7003 | left:10052 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.277096 ---------------------
+2022/11/29 20:16:43.277111 | Auction for 'item-1' has 10052ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:43.460791 --- SendBid queried ---
+2022/11/29 20:16:43.461303 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:43.461815 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:43.461815 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:43.462341 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:43.462341 ---------------------
+2022/11/29 20:16:43.800035 --- GetResults queried ---
+2022/11/29 20:16:43.800550 Port 7000 | left:9526 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.801060 Port 7001 | left:9526 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.801641 Port 7002 | left:9527 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.801641 Port 7003 | left:9527 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.801641 ---------------------
+2022/11/29 20:16:43.802156 | Auction for 'item-1' has 9526ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:43.955129 --- GetResults queried ---
+2022/11/29 20:16:43.970524 Port 7000 | left:9356 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.971714 Port 7001 | left:9357 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.971714 Port 7002 | left:9356 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.972277 Port 7003 | left:9356 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:43.972277 ---------------------
+2022/11/29 20:16:43.972794 | Auction for 'item-1' has 9356ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:44.066172 --- SendBid queried ---
+2022/11/29 20:16:44.067588 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.068211 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.069007 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.069631 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.069631 ---------------------
+2022/11/29 20:16:44.355027 --- SendBid queried ---
+2022/11/29 20:16:44.356134 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.356637 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.357202 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.357757 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.357797 ---------------------
+2022/11/29 20:16:44.492788 --- SendBid queried ---
+2022/11/29 20:16:44.492788 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.493307 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.493819 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.493819 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:44.493819 ---------------------
+2022/11/29 20:16:44.879318 --- StartAuction queried ---
+2022/11/29 20:16:44.879910 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:44.880472 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:44.880472 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:44.880988 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:44.880988 ---------------------
+2022/11/29 20:16:44.880988 message:"An auction is already running"
+2022/11/29 20:16:44.957062 --- StartAuction queried ---
+2022/11/29 20:16:44.957571 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:44.958074 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:44.958116 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:44.958116 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:44.958631 ---------------------
+2022/11/29 20:16:44.958631 message:"An auction is already running"
+2022/11/29 20:16:45.390906 --- StartAuction queried ---
+2022/11/29 20:16:45.391424 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:45.391424 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:45.391947 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:45.391947 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:45.391947 ---------------------
+2022/11/29 20:16:45.392451 message:"An auction is already running"
+2022/11/29 20:16:45.437643 --- SendBid queried ---
+2022/11/29 20:16:45.438174 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:45.438685 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:45.439248 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:45.439786 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:45.439786 ---------------------
+2022/11/29 20:16:45.468979 --- SendBid queried ---
+2022/11/29 20:16:45.484183 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:45.484766 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:45.485290 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:45.485992 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:45.485992 ---------------------
+2022/11/29 20:16:45.532072 --- GetResults queried ---
+2022/11/29 20:16:45.532072 Port 7000 | left:7795 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:45.532590 Port 7001 | left:7795 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:45.533102 Port 7002 | left:7795 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:45.533102 Port 7003 | left:7795 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:45.533102 ---------------------
+2022/11/29 20:16:45.533102 | Auction for 'item-1' has 7795ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:45.686688 --- StartAuction queried ---
+2022/11/29 20:16:45.687249 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:45.687857 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:45.688383 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:45.688383 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:45.688383 ---------------------
+2022/11/29 20:16:45.688886 message:"An auction is already running"
+2022/11/29 20:16:45.995199 --- GetResults queried ---
+2022/11/29 20:16:45.995708 Port 7000 | left:7331 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:45.996250 Port 7001 | left:7331 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:45.996250 Port 7002 | left:7331 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:45.996762 Port 7003 | left:7331 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:45.996762 ---------------------
+2022/11/29 20:16:45.996762 | Auction for 'item-1' has 7331ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:46.042718 --- GetResults queried ---
+2022/11/29 20:16:46.043242 Port 7000 | left:7283 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.043753 Port 7001 | left:7283 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.044269 Port 7002 | left:7284 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.044864 Port 7003 | left:7284 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.044864 ---------------------
+2022/11/29 20:16:46.044864 | Auction for 'item-1' has 7283ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:46.228868 --- GetResults queried ---
+2022/11/29 20:16:46.245356 Port 7000 | left:7081 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.245906 Port 7001 | left:7082 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.245906 Port 7002 | left:7082 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.246456 Port 7003 | left:7082 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.246456 ---------------------
+2022/11/29 20:16:46.246456 | Auction for 'item-1' has 7081ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:46.292014 --- GetResults queried ---
+2022/11/29 20:16:46.292014 Port 7000 | left:7035 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.292573 Port 7001 | left:7035 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.292573 Port 7002 | left:7035 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.293085 Port 7003 | left:7036 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.293085 ---------------------
+2022/11/29 20:16:46.293085 | Auction for 'item-1' has 7035ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:46.601951 --- SendBid queried ---
+2022/11/29 20:16:46.602494 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:46.603017 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:46.603639 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:46.603639 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:46.603639 ---------------------
+2022/11/29 20:16:46.958540 --- GetResults queried ---
+2022/11/29 20:16:46.959102 Port 7000 | left:6368 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.959606 Port 7001 | left:6368 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.959690 Port 7002 | left:6368 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.960208 Port 7003 | left:6368 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.960208 ---------------------
+2022/11/29 20:16:46.960208 | Auction for 'item-1' has 6368ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:46.989938 --- GetResults queried ---
+2022/11/29 20:16:46.990524 Port 7000 | left:6337 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.990524 Port 7001 | left:6337 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.991099 Port 7002 | left:6337 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.991696 Port 7003 | left:6337 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:46.991696 ---------------------
+2022/11/29 20:16:46.991696 | Auction for 'item-1' has 6337ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:47.175097 --- GetResults queried ---
+2022/11/29 20:16:47.175097 Port 7000 | left:6152 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:47.175612 Port 7001 | left:6152 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:47.176224 Port 7002 | left:6152 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:47.176224 Port 7003 | left:6152 amount:18318618277975613601 bidder:2 item:"item-1"
+2022/11/29 20:16:47.176224 ---------------------
+2022/11/29 20:16:47.176224 | Auction for 'item-1' has 6152ms left, highest bid (by id 2) is 18318618277975613601
+2022/11/29 20:16:47.576828 --- StartAuction queried ---
+2022/11/29 20:16:47.577424 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:47.577935 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:47.577935 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:47.578460 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:47.578460 ---------------------
+2022/11/29 20:16:47.578460 message:"An auction is already running"
+2022/11/29 20:16:47.686991 --- SendBid queried ---
+2022/11/29 20:16:47.687549 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:47.688151 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:47.688660 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:47.689184 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:47.689184 ---------------------
+2022/11/29 20:16:47.902995 --- GetResults queried ---
+2022/11/29 20:16:47.903571 Port 7000 | left:5424 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:47.903571 Port 7001 | left:5424 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:47.904211 Port 7002 | left:5423 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:47.904211 Port 7003 | left:5424 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:47.904737 ---------------------
+2022/11/29 20:16:47.904737 | Auction for 'item-1' has 5424ms left, highest bid (by id 1) is 18364395511671146699
+2022/11/29 20:16:47.995217 --- SendBid queried ---
+2022/11/29 20:16:47.995729 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:47.996232 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:47.996232 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:47.996751 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:47.996751 ---------------------
+2022/11/29 20:16:48.057866 --- StartAuction queried ---
+2022/11/29 20:16:48.058375 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:48.058903 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:48.059464 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:48.059464 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:48.059464 ---------------------
+2022/11/29 20:16:48.059996 message:"An auction is already running"
+2022/11/29 20:16:48.150651 --- SendBid queried ---
+2022/11/29 20:16:48.166114 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:48.167152 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:48.167211 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:48.167722 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:48.167722 ---------------------
+2022/11/29 20:16:48.523597 --- GetResults queried ---
+2022/11/29 20:16:48.523597 Port 7000 | left:4803 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:48.524124 Port 7001 | left:4803 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:48.524124 Port 7002 | left:4804 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:48.524640 Port 7003 | left:4804 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:48.524640 ---------------------
+2022/11/29 20:16:48.524640 | Auction for 'item-1' has 4803ms left, highest bid (by id 1) is 18364395511671146699
+2022/11/29 20:16:48.663508 --- GetResults queried ---
+2022/11/29 20:16:48.664071 Port 7000 | left:4663 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:48.664592 Port 7001 | left:4663 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:48.664592 Port 7002 | left:4663 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:48.665105 Port 7003 | left:4664 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:48.665105 ---------------------
+2022/11/29 20:16:48.665105 | Auction for 'item-1' has 4663ms left, highest bid (by id 1) is 18364395511671146699
+2022/11/29 20:16:49.052342 --- GetResults queried ---
+2022/11/29 20:16:49.052850 Port 7000 | left:4274 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:49.052850 Port 7001 | left:4274 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:49.053361 Port 7002 | left:4274 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:49.053975 Port 7003 | left:4274 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:49.053975 ---------------------
+2022/11/29 20:16:49.053975 | Auction for 'item-1' has 4274ms left, highest bid (by id 1) is 18364395511671146699
+2022/11/29 20:16:49.561805 --- GetResults queried ---
+2022/11/29 20:16:49.562373 Port 7000 | left:3764 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:49.562887 Port 7001 | left:3764 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:49.563602 Port 7002 | left:3764 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:49.564106 Port 7003 | left:3765 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:49.564116 ---------------------
+2022/11/29 20:16:49.564116 | Auction for 'item-1' has 3764ms left, highest bid (by id 1) is 18364395511671146699
+2022/11/29 20:16:49.748743 --- StartAuction queried ---
+2022/11/29 20:16:49.749256 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:49.749770 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:49.750273 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:49.750330 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:49.750330 ---------------------
+2022/11/29 20:16:49.750330 message:"An auction is already running"
+2022/11/29 20:16:50.027873 --- SendBid queried ---
+2022/11/29 20:16:50.028404 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.029419 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.029547 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.030095 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.030095 ---------------------
+2022/11/29 20:16:50.230678 --- SendBid queried ---
+2022/11/29 20:16:50.231813 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.232316 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.232445 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.232957 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.232957 ---------------------
+2022/11/29 20:16:50.430154 --- GetResults queried ---
+2022/11/29 20:16:50.430665 Port 7000 | left:2896 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:50.431228 Port 7001 | left:2896 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:50.431228 Port 7002 | left:2896 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:50.431753 Port 7003 | left:2896 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:50.431753 ---------------------
+2022/11/29 20:16:50.431753 | Auction for 'item-1' has 2896ms left, highest bid (by id 1) is 18364395511671146699
+2022/11/29 20:16:50.491259 --- GetResults queried ---
+2022/11/29 20:16:50.491259 Port 7000 | left:2835 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:50.491767 Port 7001 | left:2836 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:50.491767 Port 7002 | left:2836 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:50.492275 Port 7003 | left:2836 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:50.492275 ---------------------
+2022/11/29 20:16:50.492275 | Auction for 'item-1' has 2835ms left, highest bid (by id 1) is 18364395511671146699
+2022/11/29 20:16:50.600850 --- SendBid queried ---
+2022/11/29 20:16:50.600850 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.601396 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.601919 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.602430 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:50.602430 ---------------------
+2022/11/29 20:16:51.686613 --- StartAuction queried ---
+2022/11/29 20:16:51.687147 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:51.687725 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:51.687725 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:51.688262 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:51.688262 ---------------------
+2022/11/29 20:16:51.688798 message:"An auction is already running"
+2022/11/29 20:16:51.919543 --- SendBid queried ---
+2022/11/29 20:16:51.920089 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:51.920646 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:51.921174 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:51.921694 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:51.921694 ---------------------
+2022/11/29 20:16:51.996799 --- StartAuction queried ---
+2022/11/29 20:16:51.997348 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:51.997861 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:51.997861 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:51.998373 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:51.998373 ---------------------
+2022/11/29 20:16:51.998373 message:"An auction is already running"
+2022/11/29 20:16:52.074905 --- GetResults queried ---
+2022/11/29 20:16:52.075409 Port 7000 | left:1252 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:52.075559 Port 7001 | left:1252 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:52.076102 Port 7002 | left:1252 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:52.076611 Port 7003 | left:1252 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:52.076611 ---------------------
+2022/11/29 20:16:52.076611 | Auction for 'item-1' has 1252ms left, highest bid (by id 1) is 18364395511671146699
+2022/11/29 20:16:52.600345 --- GetResults queried ---
+2022/11/29 20:16:52.600365 Port 7000 | left:726 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:52.600875 Port 7001 | left:726 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:52.601431 Port 7002 | left:726 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:52.601431 Port 7003 | left:727 amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:52.601968 ---------------------
+2022/11/29 20:16:52.601968 | Auction for 'item-1' has 726ms left, highest bid (by id 1) is 18364395511671146699
+2022/11/29 20:16:52.693720 --- SendBid queried ---
+2022/11/29 20:16:52.694233 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:52.694741 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:52.694780 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:52.695292 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:52.695292 ---------------------
+2022/11/29 20:16:53.004222 --- StartAuction queried ---
+2022/11/29 20:16:53.005091 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:53.005594 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:53.005789 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:53.005789 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:53.005789 ---------------------
+2022/11/29 20:16:53.006292 message:"An auction is already running"
+2022/11/29 20:16:53.189846 --- SendBid queried ---
+2022/11/29 20:16:53.190357 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:53.190935 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:53.191464 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:53.191464 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:53.191464 ---------------------
+2022/11/29 20:16:53.917407 --- GetResults queried ---
+2022/11/29 20:16:53.917925 Port 7000 | amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:53.918456 Port 7001 | amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:53.918984 Port 7002 | amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:53.919490 Port 7003 | amount:18364395511671146699 bidder:1 item:"item-1"
+2022/11/29 20:16:53.919490 ---------------------
+2022/11/29 20:16:53.919490 | Auction for 'item-1' was won (by id 1) for 18364395511671146699
+2022/11/29 20:16:54.349327 --- StartAuction queried ---
+2022/11/29 20:16:54.349853 Port 7000 | response:SUCCESS
+2022/11/29 20:16:54.350365 Port 7001 | response:SUCCESS
+2022/11/29 20:16:54.350892 Port 7002 | response:SUCCESS
+2022/11/29 20:16:54.351419 Port 7003 | response:SUCCESS
+2022/11/29 20:16:54.351419 ---------------------
+2022/11/29 20:16:54.351419 response:SUCCESS
+2022/11/29 20:16:54.443465 --- GetResults queried ---
+2022/11/29 20:16:54.444023 Port 7000 | left:61761 amount:1464520879448478667 item:"item-2"
+2022/11/29 20:16:54.444526 Port 7001 | left:61762 amount:1464520879448478667 item:"item-2"
+2022/11/29 20:16:54.444534 Port 7002 | left:61762 amount:1464520879448478667 item:"item-2"
+2022/11/29 20:16:54.445078 Port 7003 | left:61762 amount:1464520879448478667 item:"item-2"
+2022/11/29 20:16:54.445078 ---------------------
+2022/11/29 20:16:54.445078 | Auction for 'item-2' has 61761ms left, starting bid is 1464520879448478667
+2022/11/29 20:16:54.644762 --- StartAuction queried ---
+2022/11/29 20:16:54.645308 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:54.645819 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:54.646419 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:54.646482 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:54.646482 ---------------------
+2022/11/29 20:16:54.646482 message:"An auction is already running"
+2022/11/29 20:16:54.907904 --- StartAuction queried ---
+2022/11/29 20:16:54.923953 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:54.924615 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:54.925241 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:54.925757 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:54.925882 ---------------------
+2022/11/29 20:16:54.925882 message:"An auction is already running"
+2022/11/29 20:16:55.001247 --- StartAuction queried ---
+2022/11/29 20:16:55.016949 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:55.017471 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:55.018009 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:55.018009 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:55.018576 ---------------------
+2022/11/29 20:16:55.018576 message:"An auction is already running"
+2022/11/29 20:16:55.556308 --- GetResults queried ---
+2022/11/29 20:16:55.556836 Port 7000 | left:60649 amount:11784341048672214076 bidder:1 item:"item-2"
+2022/11/29 20:16:55.557344 Port 7001 | left:60649 amount:11784341048672214076 bidder:1 item:"item-2"
+2022/11/29 20:16:55.557859 Port 7002 | left:60649 amount:11784341048672214076 bidder:1 item:"item-2"
+2022/11/29 20:16:55.557859 Port 7003 | left:60649 amount:11784341048672214076 bidder:1 item:"item-2"
+2022/11/29 20:16:55.557859 ---------------------
+2022/11/29 20:16:55.557859 | Auction for 'item-2' has 60649ms left, highest bid (by id 1) is 11784341048672214076
+2022/11/29 20:16:55.865866 --- StartAuction queried ---
+2022/11/29 20:16:55.866380 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:55.866380 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:55.866987 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:55.866987 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:55.866987 ---------------------
+2022/11/29 20:16:55.866987 message:"An auction is already running"
+2022/11/29 20:16:55.911125 --- SendBid queried ---
+2022/11/29 20:16:55.912596 Port 7000 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:55.913197 Port 7001 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:55.913197 Port 7002 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:55.913708 Port 7003 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:55.913708 ---------------------
+2022/11/29 20:16:55.974299 --- SendBid queried ---
+2022/11/29 20:16:55.974299 Port 7000 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:55.974837 Port 7001 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:55.975383 Port 7002 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:55.975383 Port 7003 | response:SUCCESS message:"Bid increased"
+2022/11/29 20:16:55.975895 ---------------------
+2022/11/29 20:16:56.006383 --- StartAuction queried ---
+2022/11/29 20:16:56.006917 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:56.006917 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:56.007431 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:56.007431 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:56.007431 ---------------------
+2022/11/29 20:16:56.007431 message:"An auction is already running"
+2022/11/29 20:16:56.115269 --- StartAuction queried ---
+2022/11/29 20:16:56.115269 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:56.115785 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:56.116359 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:56.116359 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:56.116359 ---------------------
+2022/11/29 20:16:56.116873 message:"An auction is already running"
+2022/11/29 20:16:56.162422 --- SendBid queried ---
+2022/11/29 20:16:56.162948 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:56.163483 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:56.163994 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:56.164506 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:56.164506 ---------------------
+2022/11/29 20:16:56.471476 --- GetResults queried ---
+2022/11/29 20:16:56.471476 Port 7000 | left:59734 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.472019 Port 7001 | left:59734 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.472530 Port 7002 | left:59734 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.472530 Port 7003 | left:59734 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.472530 ---------------------
+2022/11/29 20:16:56.473034 | Auction for 'item-2' has 59734ms left, highest bid (by id 2) is 17426964386392292190
+2022/11/29 20:16:56.549012 --- GetResults queried ---
+2022/11/29 20:16:56.549528 Port 7000 | left:59656 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.549528 Port 7001 | left:59656 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.550051 Port 7002 | left:59656 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.550051 Port 7003 | left:59657 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.550051 ---------------------
+2022/11/29 20:16:56.550554 | Auction for 'item-2' has 59656ms left, highest bid (by id 2) is 17426964386392292190
+2022/11/29 20:16:56.641114 --- StartAuction queried ---
+2022/11/29 20:16:56.641625 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:56.641625 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:56.642168 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:56.642168 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:56.642168 ---------------------
+2022/11/29 20:16:56.642168 message:"An auction is already running"
+2022/11/29 20:16:56.796390 --- GetResults queried ---
+2022/11/29 20:16:56.796906 Port 7000 | left:59409 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.797416 Port 7001 | left:59409 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.797416 Port 7002 | left:59409 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.797934 Port 7003 | left:59409 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:56.797934 ---------------------
+2022/11/29 20:16:56.797934 | Auction for 'item-2' has 59409ms left, highest bid (by id 2) is 17426964386392292190
+2022/11/29 20:16:57.107357 --- SendBid queried ---
+2022/11/29 20:16:57.107357 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:57.107873 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:57.108403 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:57.108403 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:57.108916 ---------------------
+2022/11/29 20:16:57.231386 --- GetResults queried ---
+2022/11/29 20:16:57.231942 Port 7000 | left:58973 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:57.232962 Port 7001 | left:58973 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:57.233020 Port 7002 | left:58973 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:57.233538 Port 7003 | left:58973 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:57.233538 ---------------------
+2022/11/29 20:16:57.233538 | Auction for 'item-2' has 58973ms left, highest bid (by id 2) is 17426964386392292190
+2022/11/29 20:16:57.325196 --- GetResults queried ---
+2022/11/29 20:16:57.325710 Port 7000 | left:58880 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:57.326222 Port 7001 | left:58880 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:57.326754 Port 7002 | left:58880 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:57.326754 Port 7003 | left:58880 amount:17426964386392292190 bidder:2 item:"item-2"
+2022/11/29 20:16:57.326754 ---------------------
+2022/11/29 20:16:57.327267 | Auction for 'item-2' has 58880ms left, highest bid (by id 2) is 17426964386392292190
+2022/11/29 20:16:57.818913 --- SendBid queried ---
+2022/11/29 20:16:57.819464 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:57.819983 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:57.819983 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:57.820503 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:57.820503 ---------------------
+2022/11/29 20:16:58.641883 --- StartAuction queried ---
+2022/11/29 20:16:58.642449 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:58.642997 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:58.642997 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:58.643531 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:58.643531 ---------------------
+2022/11/29 20:16:58.643531 message:"An auction is already running"
+2022/11/29 20:16:58.795521 --- SendBid queried ---
+2022/11/29 20:16:58.796069 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:58.796583 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:58.796583 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:58.797111 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:58.797111 ---------------------
+2022/11/29 20:16:58.887410 --- StartAuction queried ---
+2022/11/29 20:16:58.887983 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:58.888491 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:58.888491 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:58.889017 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:58.889017 ---------------------
+2022/11/29 20:16:58.889017 message:"An auction is already running"
+2022/11/29 20:16:59.074826 --- SendBid queried ---
+2022/11/29 20:16:59.075338 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.075857 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.076391 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.076942 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.076942 ---------------------
+2022/11/29 20:16:59.198364 --- StartAuction queried ---
+2022/11/29 20:16:59.198935 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:59.199533 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:59.200036 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:59.200151 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:59.200151 ---------------------
+2022/11/29 20:16:59.200151 message:"An auction is already running"
+2022/11/29 20:16:59.260673 --- SendBid queried ---
+2022/11/29 20:16:59.261294 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.261806 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.261806 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.262317 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.262317 ---------------------
+2022/11/29 20:16:59.308608 --- GetResults queried ---
+2022/11/29 20:16:59.309122 Port 7000 | left:56897 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:16:59.309122 Port 7001 | left:56897 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:16:59.309637 Port 7002 | left:56897 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:16:59.310192 Port 7003 | left:56897 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:16:59.310192 ---------------------
+2022/11/29 20:16:59.310192 | Auction for 'item-2' has 56897ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:16:59.678492 --- SendBid queried ---
+2022/11/29 20:16:59.679010 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.679523 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.679523 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.680035 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:16:59.680035 ---------------------
+2022/11/29 20:16:59.884481 --- StartAuction queried ---
+2022/11/29 20:16:59.884481 Port 7000 | message:"An auction is already running"
+2022/11/29 20:16:59.884994 Port 7001 | message:"An auction is already running"
+2022/11/29 20:16:59.884994 Port 7002 | message:"An auction is already running"
+2022/11/29 20:16:59.885508 Port 7003 | message:"An auction is already running"
+2022/11/29 20:16:59.885508 ---------------------
+2022/11/29 20:16:59.885508 message:"An auction is already running"
+2022/11/29 20:17:00.211618 --- SendBid queried ---
+2022/11/29 20:17:00.212225 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.212907 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.213467 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.214054 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.214054 ---------------------
+2022/11/29 20:17:00.566599 --- SendBid queried ---
+2022/11/29 20:17:00.567123 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.567123 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.567635 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.567635 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.567635 ---------------------
+2022/11/29 20:17:00.769130 --- SendBid queried ---
+2022/11/29 20:17:00.769633 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.769659 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.770177 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.770177 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.770177 ---------------------
+2022/11/29 20:17:00.831146 --- SendBid queried ---
+2022/11/29 20:17:00.831679 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.832182 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.832193 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.832706 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:00.832706 ---------------------
+2022/11/29 20:17:01.121374 --- StartAuction queried ---
+2022/11/29 20:17:01.121882 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:01.121909 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:01.122420 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:01.122420 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:01.122420 ---------------------
+2022/11/29 20:17:01.122420 message:"An auction is already running"
+2022/11/29 20:17:01.276160 --- SendBid queried ---
+2022/11/29 20:17:01.276696 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:01.277258 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:01.277804 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:01.277804 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:01.277804 ---------------------
+2022/11/29 20:17:01.352286 --- StartAuction queried ---
+2022/11/29 20:17:01.352815 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:01.353319 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:01.353374 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:01.353895 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:01.353895 ---------------------
+2022/11/29 20:17:01.353895 message:"An auction is already running"
+2022/11/29 20:17:01.415999 --- GetResults queried ---
+2022/11/29 20:17:01.415999 Port 7000 | left:54789 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:01.416620 Port 7001 | left:54789 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:01.417131 Port 7002 | left:54790 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:01.417195 Port 7003 | left:54790 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:01.417195 ---------------------
+2022/11/29 20:17:01.417862 | Auction for 'item-2' has 54789ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:17:01.538486 --- StartAuction queried ---
+2022/11/29 20:17:01.539036 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:01.539566 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:01.540096 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:01.540621 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:01.540621 ---------------------
+2022/11/29 20:17:01.540621 message:"An auction is already running"
+2022/11/29 20:17:01.911253 --- StartAuction queried ---
+2022/11/29 20:17:01.911820 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:01.911820 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:01.912355 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:01.912862 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:01.912862 ---------------------
+2022/11/29 20:17:01.912862 message:"An auction is already running"
+2022/11/29 20:17:01.972511 --- StartAuction queried ---
+2022/11/29 20:17:01.973197 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:01.973833 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:01.973833 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:01.974343 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:01.974343 ---------------------
+2022/11/29 20:17:01.974343 message:"An auction is already running"
+2022/11/29 20:17:02.049919 --- SendBid queried ---
+2022/11/29 20:17:02.050472 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.050472 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.050998 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.051524 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.051524 ---------------------
+2022/11/29 20:17:02.097394 --- GetResults queried ---
+2022/11/29 20:17:02.097898 Port 7000 | left:54108 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:02.097984 Port 7001 | left:54108 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:02.098494 Port 7002 | left:54108 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:02.098494 Port 7003 | left:54108 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:02.098494 ---------------------
+2022/11/29 20:17:02.098494 | Auction for 'item-2' has 54108ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:17:02.175486 --- StartAuction queried ---
+2022/11/29 20:17:02.175990 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:02.176078 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:02.176585 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:02.176585 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:02.176585 ---------------------
+2022/11/29 20:17:02.176585 message:"An auction is already running"
+2022/11/29 20:17:02.268464 --- StartAuction queried ---
+2022/11/29 20:17:02.269032 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:02.269585 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:02.269585 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:02.270096 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:02.270096 ---------------------
+2022/11/29 20:17:02.270096 message:"An auction is already running"
+2022/11/29 20:17:02.439435 --- SendBid queried ---
+2022/11/29 20:17:02.439954 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.440533 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.441063 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.441575 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.441575 ---------------------
+2022/11/29 20:17:02.750337 --- SendBid queried ---
+2022/11/29 20:17:02.750860 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.751380 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.752433 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.752433 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:02.752955 ---------------------
+2022/11/29 20:17:02.905689 --- GetResults queried ---
+2022/11/29 20:17:02.906226 Port 7000 | left:53299 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:02.906760 Port 7001 | left:53299 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:02.907273 Port 7002 | left:53300 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:02.907273 Port 7003 | left:53300 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:02.907798 ---------------------
+2022/11/29 20:17:02.907798 | Auction for 'item-2' has 53299ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:17:02.968299 --- StartAuction queried ---
+2022/11/29 20:17:02.968354 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:02.968939 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:02.968939 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:02.969452 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:02.969452 ---------------------
+2022/11/29 20:17:02.969452 message:"An auction is already running"
+2022/11/29 20:17:03.014003 --- GetResults queried ---
+2022/11/29 20:17:03.014525 Port 7000 | left:53191 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:03.015044 Port 7001 | left:53191 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:03.015044 Port 7002 | left:53191 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:03.015556 Port 7003 | left:53191 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:03.015556 ---------------------
+2022/11/29 20:17:03.015556 | Auction for 'item-2' has 53191ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:17:03.091791 --- StartAuction queried ---
+2022/11/29 20:17:03.092308 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:03.092308 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:03.092912 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:03.092912 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:03.092912 ---------------------
+2022/11/29 20:17:03.092912 message:"An auction is already running"
+2022/11/29 20:17:03.355414 --- StartAuction queried ---
+2022/11/29 20:17:03.355944 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:03.356447 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:03.356593 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:03.357111 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:03.357111 ---------------------
+2022/11/29 20:17:03.357111 message:"An auction is already running"
+2022/11/29 20:17:03.710809 --- SendBid queried ---
+2022/11/29 20:17:03.711355 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:03.712040 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:03.712619 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:03.713133 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:03.713133 ---------------------
+2022/11/29 20:17:03.865090 --- StartAuction queried ---
+2022/11/29 20:17:03.865090 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:03.865610 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:03.866122 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:03.866122 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:03.866122 ---------------------
+2022/11/29 20:17:03.866122 message:"An auction is already running"
+2022/11/29 20:17:03.960651 --- GetResults queried ---
+2022/11/29 20:17:03.961164 Port 7000 | left:52245 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:03.961164 Port 7001 | left:52245 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:03.961801 Port 7002 | left:52245 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:03.961801 Port 7003 | left:52245 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:03.961801 ---------------------
+2022/11/29 20:17:03.961801 | Auction for 'item-2' has 52245ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:17:04.081745 --- StartAuction queried ---
+2022/11/29 20:17:04.082268 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:04.082268 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:04.082787 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:04.082787 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:04.082787 ---------------------
+2022/11/29 20:17:04.082787 message:"An auction is already running"
+2022/11/29 20:17:04.281320 --- GetResults queried ---
+2022/11/29 20:17:04.296956 Port 7000 | left:51909 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.297494 Port 7001 | left:51908 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.298041 Port 7002 | left:51908 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.298556 Port 7003 | left:51908 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.298556 ---------------------
+2022/11/29 20:17:04.298556 | Auction for 'item-2' has 51909ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:17:04.823518 --- GetResults queried ---
+2022/11/29 20:17:04.824083 Port 7000 | left:51382 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.824602 Port 7001 | left:51382 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.825110 Port 7002 | left:51382 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.825137 Port 7003 | left:51382 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.825137 ---------------------
+2022/11/29 20:17:04.825137 | Auction for 'item-2' has 51382ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:17:04.993230 --- GetResults queried ---
+2022/11/29 20:17:04.993777 Port 7000 | left:51212 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.993777 Port 7001 | left:51212 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.994287 Port 7002 | left:51212 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.994287 Port 7003 | left:51213 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:04.994287 ---------------------
+2022/11/29 20:17:04.994287 | Auction for 'item-2' has 51212ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:17:05.179359 --- SendBid queried ---
+2022/11/29 20:17:05.179872 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:05.179872 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:05.180383 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:05.180903 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:05.180903 ---------------------
+2022/11/29 20:17:05.397457 --- StartAuction queried ---
+2022/11/29 20:17:05.397972 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:05.397972 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:05.398534 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:05.398534 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:05.398534 ---------------------
+2022/11/29 20:17:05.398534 message:"An auction is already running"
+2022/11/29 20:17:05.880861 --- StartAuction queried ---
+2022/11/29 20:17:05.881466 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:05.881466 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:05.881984 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:05.881984 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:05.881984 ---------------------
+2022/11/29 20:17:05.881984 message:"An auction is already running"
+2022/11/29 20:17:06.236913 --- SendBid queried ---
+2022/11/29 20:17:06.252633 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:06.253148 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:06.253676 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:06.254202 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 20:17:06.254202 ---------------------
+2022/11/29 20:17:06.499401 --- StartAuction queried ---
+2022/11/29 20:17:06.499916 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:06.500440 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:06.500440 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:06.500982 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:06.500982 ---------------------
+2022/11/29 20:17:06.500982 message:"An auction is already running"
+2022/11/29 20:17:06.607561 --- GetResults queried ---
+2022/11/29 20:17:06.608106 Port 7000 | left:49597 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:06.608625 Port 7001 | left:49598 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:06.609136 Port 7002 | left:49598 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:06.609136 Port 7003 | left:49598 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:06.609647 ---------------------
+2022/11/29 20:17:06.609647 | Auction for 'item-2' has 49597ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:17:07.257397 --- StartAuction queried ---
+2022/11/29 20:17:07.257906 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:07.258474 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:07.258474 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:07.259018 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:07.259018 ---------------------
+2022/11/29 20:17:07.259018 message:"An auction is already running"
+2022/11/29 20:17:07.427421 --- StartAuction queried ---
+2022/11/29 20:17:07.427942 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:07.427942 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:07.428514 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:07.428514 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:07.429029 ---------------------
+2022/11/29 20:17:07.429029 message:"An auction is already running"
+2022/11/29 20:17:07.552111 --- StartAuction queried ---
+2022/11/29 20:17:07.552692 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:07.553202 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:07.553202 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:07.553713 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:07.553713 ---------------------
+2022/11/29 20:17:07.553713 message:"An auction is already running"
+2022/11/29 20:17:07.784519 --- GetResults queried ---
+2022/11/29 20:17:07.785096 Port 7000 | left:48420 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:07.785648 Port 7001 | left:48421 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:07.786183 Port 7002 | left:48421 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:07.786183 Port 7003 | left:48421 amount:17641533010751228305 bidder:1 item:"item-2"
+2022/11/29 20:17:07.786702 ---------------------
+2022/11/29 20:17:07.786702 | Auction for 'item-2' has 48420ms left, highest bid (by id 1) is 17641533010751228305
+2022/11/29 20:17:07.953072 --- StartAuction queried ---
+2022/11/29 20:17:07.953072 Port 7000 | message:"An auction is already running"
+2022/11/29 20:17:07.953586 Port 7001 | message:"An auction is already running"
+2022/11/29 20:17:07.954094 Port 7002 | message:"An auction is already running"
+2022/11/29 20:17:07.954094 Port 7003 | message:"An auction is already running"
+2022/11/29 20:17:07.954094 ---------------------
+2022/11/29 20:17:07.954094 message:"An auction is already running"

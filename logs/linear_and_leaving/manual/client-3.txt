@@ -1,0 +1,98 @@
+2022/11/29 19:36:15.194169 Dial (port: 7000) succeeded
+2022/11/29 19:36:15.194680 Dial (port: 7001) succeeded
+2022/11/29 19:36:15.195191 Dial (port: 7002) succeeded
+2022/11/29 19:36:15.195702 Dial (port: 7003) succeeded
+2022/11/29 19:37:38.743026 --- GetResults queried ---
+2022/11/29 19:37:38.743537 Port 7000 | left:48394  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:38.744048 Port 7001 | left:48394  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:38.744048 Port 7002 | left:48393  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:38.744048 Port 7003 | left:48394  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:38.744550 ---------------------
+2022/11/29 19:37:38.744559 | Auction for 'titan katowice holo' has 48394ms left
+| Starting bid is 4
+2022/11/29 19:37:40.065197 --- GetResults queried ---
+2022/11/29 19:37:40.065197 Port 7000 | left:47072  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:40.065710 Port 7001 | left:47072  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:40.065710 Port 7002 | left:47072  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:40.066224 Port 7003 | left:47072  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:40.066224 ---------------------
+2022/11/29 19:37:40.066224 | Auction for 'titan katowice holo' has 47072ms left
+| Starting bid is 4
+2022/11/29 19:37:41.761265 --- GetResults queried ---
+2022/11/29 19:37:41.761265 Port 7000 | left:45375  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:41.761782 Port 7001 | left:45376  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:41.761782 Port 7002 | left:45376  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:41.762291 Port 7003 | left:45376  amount:4  item:"titan katowice holo"
+2022/11/29 19:37:41.762301 ---------------------
+2022/11/29 19:37:41.762301 | Auction for 'titan katowice holo' has 45375ms left
+| Starting bid is 4
+2022/11/29 19:37:43.487150 --- SendBid queried ---
+2022/11/29 19:37:43.487737 Port 7000 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:37:43.488249 Port 7001 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:37:43.488762 Port 7002 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:37:43.488762 Port 7003 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:37:43.488762 ---------------------
+2022/11/29 19:37:43.489274 response:SUCCESS  message:"Bid increased"
+2022/11/29 19:37:44.757066 --- SendBid queried ---
+2022/11/29 19:37:44.757590 Port 7000 | message:"Bid is lower than the highest bid"
+2022/11/29 19:37:44.757590 Port 7001 | message:"Bid is lower than the highest bid"
+2022/11/29 19:37:44.758108 Port 7002 | message:"Bid is lower than the highest bid"
+2022/11/29 19:37:44.758108 Port 7003 | message:"Bid is lower than the highest bid"
+2022/11/29 19:37:44.758108 ---------------------
+2022/11/29 19:37:44.758108 message:"Bid is lower than the highest bid"
+2022/11/29 19:38:11.341127 --- GetResults queried ---
+2022/11/29 19:38:11.341639 Port 7000 | left:15796  amount:2000  bidder:2  item:"titan katowice holo"
+2022/11/29 19:38:11.342151 Port 7001 | left:15796  amount:2000  bidder:2  item:"titan katowice holo"
+2022/11/29 19:38:11.342151 Port 7002 | left:15795  amount:2000  bidder:2  item:"titan katowice holo"
+2022/11/29 19:38:11.342151 Port 7003 | left:15796  amount:2000  bidder:2  item:"titan katowice holo"
+2022/11/29 19:38:11.342151 ---------------------
+2022/11/29 19:38:11.342662 | Auction for 'titan katowice holo' has 15796ms left
+| Highest bid (by id 2) is 2000
+2022/11/29 19:38:16.233866 --- SendBid queried ---
+2022/11/29 19:38:16.234379 Port 7000 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:16.234910 Port 7001 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:16.234910 Port 7002 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:16.235425 Port 7003 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:16.235425 ---------------------
+2022/11/29 19:38:16.235425 response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:22.040501 --- SendBid queried ---
+2022/11/29 19:38:22.041010 Port 7000 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:22.041019 Port 7001 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:22.041553 Port 7002 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:22.041553 Port 7003 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:22.041553 ---------------------
+2022/11/29 19:38:22.041553 response:SUCCESS  message:"Bid increased"
+2022/11/29 19:40:25.257991 --- GetResults queried ---
+2022/11/29 19:40:25.258545 Port 7000 | amount:30002  bidder:3  item:"titan katowice holo"
+2022/11/29 19:40:25.258545 Port 7001 | amount:30002  bidder:3  item:"titan katowice holo"
+2022/11/29 19:40:25.259058 Port 7002 | amount:30002  bidder:3  item:"titan katowice holo"
+2022/11/29 19:40:25.259058 Port 7003 | amount:30002  bidder:3  item:"titan katowice holo"
+2022/11/29 19:40:25.259058 ---------------------
+2022/11/29 19:40:25.259570 | Auction for 'titan katowice holo' was won (by id 3) for 30002
+2022/11/29 19:40:39.837157 --- StartAuction queried ---
+2022/11/29 19:40:39.837688 Port 7000 | response:SUCCESS
+2022/11/29 19:40:39.837688 Port 7001 | response:SUCCESS
+2022/11/29 19:40:39.838199 Port 7002 | response:SUCCESS
+2022/11/29 19:40:39.838199 Port 7003 | response:SUCCESS
+2022/11/29 19:40:39.838199 ---------------------
+2022/11/29 19:40:39.838199 response:SUCCESS
+2022/11/29 19:40:49.009252 --- GetResults queried ---
+2022/11/29 19:40:49.009765 Port 7000 | left:90828  item:"ibuypower katowice holo"
+2022/11/29 19:40:49.010277 Port 7001 | left:90828  item:"ibuypower katowice holo"
+2022/11/29 19:40:49.010881 Port 7003 | left:90828  item:"ibuypower katowice holo"
+2022/11/29 19:40:49.010881 ---------------------
+2022/11/29 19:40:49.010881 | Auction for 'ibuypower katowice holo' has 90828ms left
+| Starting bid is 0
+2022/11/29 19:41:07.053195 --- GetResults queried ---
+2022/11/29 19:41:07.053195 Port 7000 | left:72785  item:"ibuypower katowice holo"
+2022/11/29 19:41:07.053768 Port 7001 | left:72784  item:"ibuypower katowice holo"
+2022/11/29 19:41:07.053768 Port 7003 | left:72785  item:"ibuypower katowice holo"
+2022/11/29 19:41:07.053768 ---------------------
+2022/11/29 19:41:07.053768 | Auction for 'ibuypower katowice holo' has 72785ms left
+| Starting bid is 0
+2022/11/29 19:41:19.541538 --- SendBid queried ---
+2022/11/29 19:41:19.541538 Port 7000 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:41:19.542053 Port 7001 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:41:19.542053 Port 7003 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:41:19.542053 ---------------------
+2022/11/29 19:41:19.542053 response:SUCCESS  message:"Bid increased"

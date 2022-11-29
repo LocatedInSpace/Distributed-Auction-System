@@ -1,0 +1,31 @@
+2022/11/29 19:36:15.047621 Dial (port: 7000) succeeded
+2022/11/29 19:36:15.048166 Dial (port: 7001) succeeded
+2022/11/29 19:36:15.048698 Dial (port: 7002) succeeded
+2022/11/29 19:36:15.049744 Dial (port: 7003) succeeded
+2022/11/29 19:36:19.857774 --- GetResults queried ---
+2022/11/29 19:36:19.858796 Port 7000 | 
+2022/11/29 19:36:19.858796 Port 7001 | 
+2022/11/29 19:36:19.859342 Port 7002 | 
+2022/11/29 19:36:19.859845 Port 7003 | 
+2022/11/29 19:36:19.859857 ---------------------
+2022/11/29 19:36:19.859857 There is no active auction
+2022/11/29 19:37:37.135182 --- StartAuction queried ---
+2022/11/29 19:37:37.136235 Port 7000 | response:SUCCESS
+2022/11/29 19:37:37.136786 Port 7001 | response:SUCCESS
+2022/11/29 19:37:37.136786 Port 7002 | response:SUCCESS
+2022/11/29 19:37:37.137298 Port 7003 | response:SUCCESS
+2022/11/29 19:37:37.137298 ---------------------
+2022/11/29 19:37:37.137298 response:SUCCESS
+2022/11/29 19:38:19.008801 --- SendBid queried ---
+2022/11/29 19:38:19.009338 Port 7000 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:19.009842 Port 7001 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:19.009854 Port 7002 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:19.009854 Port 7003 | response:SUCCESS  message:"Bid increased"
+2022/11/29 19:38:19.010367 ---------------------
+2022/11/29 19:38:19.010367 response:SUCCESS  message:"Bid increased"
+2022/11/29 19:41:20.722321 --- StartAuction queried ---
+2022/11/29 19:41:20.722846 Port 7000 | message:"An auction is already running"
+2022/11/29 19:41:20.723357 Port 7001 | message:"An auction is already running"
+2022/11/29 19:41:20.723869 Port 7003 | message:"An auction is already running"
+2022/11/29 19:41:20.724385 ---------------------
+2022/11/29 19:41:20.724414 message:"An auction is already running"

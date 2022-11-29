@@ -16,7 +16,9 @@ import (
 	"google.golang.org/grpc"
 )
 
-const BASEPORT = 7000 // port offset to start servers from
+const BASEPORT = 7000         // port offset to start servers from
+const DELAYED_MUTEX = true    // this setting makes it way more likely for servers to stay in sync
+const PRECISE_LOGGING = false // ups precision on timestamps
 
 type Replica struct {
 	DAS.UnimplementedDASServer
@@ -75,7 +77,11 @@ func (r *Replica) Bid(ctx context.Context, amount *DAS.Amount) (*DAS.Ack, error)
 	// no active auctions
 	if len(r.auctions) == 0 {
 		log.Printf("Bid() | Told %v, no active auctions\n", amount.Id)
-		r.mutex.Unlock()
+		if DELAYED_MUTEX {
+			go r.DelayedUnlock()
+		} else {
+			r.mutex.Unlock()
+		}
 		return &DAS.Ack{
 			Response: DAS.Acks_EXCEPTION,
 			Message:  "No active auction to bid on",
@@ -88,7 +94,11 @@ func (r *Replica) Bid(ctx context.Context, amount *DAS.Amount) (*DAS.Ack, error)
 		// last auction is over
 		if difference.Milliseconds() > int64(lastAuction.duration) {
 			log.Printf("Bid() | Told %v, auction is over\n", amount.Id)
-			r.mutex.Unlock()
+			if DELAYED_MUTEX {
+				go r.DelayedUnlock()
+			} else {
+				r.mutex.Unlock()
+			}
 			return &DAS.Ack{
 				Response: DAS.Acks_EXCEPTION,
 				Message:  "Auction is over",
@@ -98,14 +108,22 @@ func (r *Replica) Bid(ctx context.Context, amount *DAS.Amount) (*DAS.Ack, error)
 				lastAuction.bidder = amount.Id
 				lastAuction.highestBid = amount.Bid
 				log.Printf("Bid() | Accepted bid from %v\n", amount.Id)
-				r.mutex.Unlock()
+				if DELAYED_MUTEX {
+					go r.DelayedUnlock()
+				} else {
+					r.mutex.Unlock()
+				}
 				return &DAS.Ack{
 					Response: DAS.Acks_SUCCESS,
 					Message:  "Bid increased",
 				}, nil
 			} else {
 				log.Printf("Bid() | Rejected bid from %v\n", amount.Id)
-				r.mutex.Unlock()
+				if DELAYED_MUTEX {
+					go r.DelayedUnlock()
+				} else {
+					r.mutex.Unlock()
+				}
 				return &DAS.Ack{
 					Response: DAS.Acks_FAIL,
 					Message:  "Bid is lower than the highest bid",
@@ -120,7 +138,11 @@ func (r *Replica) Result(ctx context.Context, _ *DAS.Empty) (*DAS.Outcome, error
 	// there exist no auctions, so return empty outcome
 	if len(r.auctions) == 0 {
 		log.Printf("Result() | Told client that there have been no auctions\n")
-		r.mutex.Unlock()
+		if DELAYED_MUTEX {
+			go r.DelayedUnlock()
+		} else {
+			r.mutex.Unlock()
+		}
 		return &DAS.Outcome{}, nil
 	} else {
 		lastAuction := r.auctions[len(r.auctions)-1]
@@ -129,14 +151,18 @@ func (r *Replica) Result(ctx context.Context, _ *DAS.Empty) (*DAS.Outcome, error
 		var left uint32
 		// last auction is over
 		if difference.Milliseconds() >= int64(lastAuction.duration) {
-			log.Printf("Result() | Sent last auction\n")
+			log.Printf("Result() | Sent last auction, '%s' lasted %vms, won by id %v\n", lastAuction.item, lastAuction.duration, lastAuction.bidder)
 			left = 0
 		} else {
-			log.Printf("Result() | Sent current auction\n")
+			log.Printf("Result() | Sent current auction, '%s' lasts %vms, id %v is winning\n", lastAuction.item, lastAuction.duration, lastAuction.bidder)
 			left = lastAuction.duration - uint32(difference.Milliseconds())
 		}
 
-		r.mutex.Unlock()
+		if DELAYED_MUTEX {
+			go r.DelayedUnlock()
+		} else {
+			r.mutex.Unlock()
+		}
 		return &DAS.Outcome{
 			Left:   left,
 			Amount: lastAuction.highestBid,
@@ -176,14 +202,22 @@ func (r *Replica) StartAuction(ctx context.Context, item *DAS.Item) (*DAS.Ack, e
 				})
 		} else {
 			log.Printf("Auction() | Rejected auction '%v', '%v' is currently live\n", item.Name, lastAuction.item)
-			r.mutex.Unlock()
+			if DELAYED_MUTEX {
+				go r.DelayedUnlock()
+			} else {
+				r.mutex.Unlock()
+			}
 			return &DAS.Ack{
 				Response: DAS.Acks_FAIL,
 				Message:  "An auction is already running",
 			}, nil
 		}
 	}
-	r.mutex.Unlock()
+	if DELAYED_MUTEX {
+		go r.DelayedUnlock()
+	} else {
+		r.mutex.Unlock()
+	}
 	return &DAS.Ack{
 		Response: DAS.Acks_SUCCESS,
 	}, nil
@@ -191,6 +225,11 @@ func (r *Replica) StartAuction(ctx context.Context, item *DAS.Item) (*DAS.Ack, e
 
 func (r *Replica) Ping(ctx context.Context, _ *DAS.Empty) (*DAS.Empty, error) {
 	return &DAS.Empty{}, nil
+}
+
+func (r *Replica) DelayedUnlock() {
+	time.Sleep(5 * time.Millisecond)
+	r.mutex.Unlock()
 }
 
 // sets the logger to use a log.txt file instead of the console
@@ -208,7 +247,10 @@ func setLog(port uint16) *os.File {
 	}
 	// print to both file and console
 	mw := io.MultiWriter(os.Stdout, f)
-	//log.SetFlags(log.LstdFlags | log.Lmicroseconds)
+
+	if PRECISE_LOGGING {
+		log.SetFlags(log.LstdFlags | log.Lmicroseconds)
+	}
 	log.SetOutput(mw)
 	return f
 }
