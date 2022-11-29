@@ -52,13 +52,13 @@ func main() {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
-	// connect to all replicas
-	//var servers [REPLICAS]DAS.DASClient
 	server := &ReplicaServers{
 		ctx: ctx,
 	}
 
 	var allReplicasDead bool = true
+
+	// connect to all replicas
 	for i := 0; i < REPLICAS; i++ {
 		port := BASEPORT + int32(i)
 

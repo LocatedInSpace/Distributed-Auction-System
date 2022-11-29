@@ -23,6 +23,10 @@ The client *needs* a parameter of uint32 - this is the ID of the client when bid
 These will do the equivalent of fuzzing the replicas - just spamming whatever they generate.
 
 ##  Stuff that might go wrong
-If you are encountering different results than we've shown in our logs & report - your net might be less stable than ours. In that case, find the function `DelayedUnlock()` (line 230) in `server.go` and up the sleep untill you attain stable results.
+We doubt that you will encounter any of this, since we are using localhost & our PC's are not good (to put it nicely) - however, now you know what to try if you have any of the issues :)
 
-We doubt that you will need to do this, since we are using localhost & our PC's are not good (to put it nicely) - however, now you know what to try :)
+1. If you are encountering different results than we've shown in our logs & report - your net might be less stable than ours. In that case, find the function `DelayedUnlock()` (line 230) in `server.go` and up the sleep untill you attain stable results.
+
+2. Clients do not find the servers - timing out on initial dial. You can try to up the value on line 67 in `client.go`
+
+3. Replica failing crashes client - this should *only* happen if you are only running one replica, and you crash it. We did not do any kind of error handling for if there are no valid replicas - because the assignment did not have this as part of the scope :)
